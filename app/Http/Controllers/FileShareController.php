@@ -24,7 +24,7 @@ class FileShareController extends Controller
 
     public $storagePath = "storage"; #
     public $storageTimeDays = 7; # Срок хранения файлов
-    public $maxStorageSizeMb = 7; # Максмальный объем хранилища Mb TODO
+    public $maxStorageSizeMb = 7; # Максмальный объем хранилища Mb TODO !!!!!!!!!!
     public $maxFileSizeKb = 1024; # Предельный размер файлв в Кб
 
 
@@ -33,14 +33,9 @@ class FileShareController extends Controller
     public $admin_pass = "123pass"; # Пароль админа: 123.com/chat/admin/этот пароль
 
 
-    public function getFile( $short_url )
+    public function downloadFile( $short_url )
     {
         # TODO: Проверка входных данных
-
-
-        $storagePath  = Storage::disk('local')->getDriver()->getAdapter()->getPathPrefix();
-
-        dd(Storage::disk('local'));
 
         $fileExist = FileShare::where('short_url', $short_url )->count() >= 1;
 
@@ -49,13 +44,11 @@ class FileShareController extends Controller
 
         $fileInfo = FileShare::where('short_url', $short_url )->first();
 
-        $file_uri = '/'.$this->storagePath.'/'.$fileInfo->file_name;
+        $file_uri = $this->storagePath.'/'.$fileInfo->file_name;
 
-        echo "<a href='$file_uri' download>$file_uri</a>";
 
         return response()->download($file_uri);
-        return Storage::download('file.jpg');
-        dd('Файл есть', $fileInfo);
+        //return response()->download("storage/Конспект теории - базовая.php");
 
     }
 
@@ -63,7 +56,7 @@ class FileShareController extends Controller
     {
 
         $files_info = FileShare::orderBy('id', 'desc')
-                                    ->take(20)
+                                    #->take(20)
                                     ->get();
 
         if( $admin_pass === $this->admin_pass)
@@ -75,6 +68,12 @@ class FileShareController extends Controller
 
     public function addFile(Request $request)
     {
+
+        $storageSizeKb = FileShare::sum('file_size_kb');
+        if ( $storageSizeKb/1024 >= $this->maxStorageSizeMb )
+            return back()->withInput()->withErrors("Превышем объем хранилища. Ждите пока удалятся старые файлы. Сейчас=".round($storageSizeKb/1024,3)."Кб _ Лимит=$this->maxStorageSizeMb Кб");
+
+
 
         $file = $request->file('loaded_file');
 
@@ -141,28 +140,10 @@ class FileShareController extends Controller
         ]);
 
 
-
-
         //перемещаем загруженный файл
-        #$file->move($this->storagePath, $file->getClientOriginalName());
-        Storage::putFile($path, $file);
-        Storage::
+        $file->move($this->storagePath, $file->getClientOriginalName());
 
         return redirect()->route('index');
-
-
-        dd(123);
-        #############
-
-        $this->validate($request, [
-                'author_nickname'=>'required|max:10',
-                'message'=>'required|max:255',
-            ]
-        );
-
-
-
-
     }
 
     public function delete($id , $admin_token)

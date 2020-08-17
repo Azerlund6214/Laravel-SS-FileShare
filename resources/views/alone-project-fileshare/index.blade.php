@@ -215,8 +215,13 @@
                             <tr>
                                 <td>ID</td>
                                 <td>Ссылка</td>
-                                <td>Автор</td>
-                                <td>Сообщение</td>
+                                <td>Скачать</td>
+                                <td>Имя файла</td>
+                                <td>Размер Кб</td>
+                                <td>Расширение</td>
+                                <td>Mime Тип</td>
+                                <td>Дата удаления</td>
+
                                 @if( $admin_token )
                                     <td>Удалить</td>
                                 @endif
@@ -226,9 +231,23 @@
                             @foreach($files_info as $msg)
                                 <tr>
                                     <td>{{$msg->id}}</td>
-                                    <td>{{$msg->short_url}}</td>
-                                    <td>{{$msg->author_nickname}}</td>
-                                    <td>{{$msg->message}}</td>
+                                    <td>
+                                        <a href="{{route('downloadFile',['short_url'=>$msg->short_url])}}">
+                                            <button class="btn btn-success">
+                                                {{$msg->short_url}}
+                                            </button>
+                                        </a>
+                                    </td>
+                                    <td>
+                                        <button onclick="window.open('{{route('downloadFile',['short_url'=>$msg->short_url])}}', '_blank');" class="btn btn-success">
+                                            Скачать
+                                        </button>
+                                    </td>
+                                    <td>{{$msg->file_name}}</td>
+                                    <td>{{$msg->file_size_kb}}</td>
+                                    <td>{{$msg->file_ext}}</td>
+                                    <td>{{$msg->file_mime}}</td>
+                                    <td>{{$msg->date_delete}}</td>
 
                                     @if( $admin_token )
                                         <td>
@@ -252,7 +271,7 @@
             <!-- Футер -->
                 <div id="row_footer" class="row  text-center">
                     <div  class="col-12 m-auto ">
-                        <h4>https://github.com/Azerlund6214/Laravel-OnlineChat</h4>
+                        <h4>https://github.com/Azerlund6214/Laravel-SS-FileShare</h4>
                     </div>
                 </div>
             <!-- Футер -->

@@ -16,7 +16,7 @@ use Illuminate\Support\Facades\Route;
     #### *** File-Share *** ####
     Route::get('/',              "FileShareController@index"   )->name('index');
 
-    Route::get('/getfile/{short_url}',              "FileShareController@getfile"   )->name('getfile');
+    Route::get('/download/{short_url}',  "FileShareController@downloadFile"   )->name('downloadFile');
 
 
     Route::get( '/admin/{pass}', 'FileShareController@index'   )->name('indexAdmin');
