@@ -54,6 +54,10 @@ class FileShareController extends Controller
 
     public function index($admin_pass="")
     {
+        # С вероятностью 5% будет вызвано удаление устаревших файлов и повторный вывод индекса.
+        if ( random_int(1, 20) === 1 )
+            return redirect()->route('deleteExpiredFiles');
+
 
         $files_info = FileShare::orderBy('id', 'desc')
                                     #->take(20)
@@ -149,13 +153,20 @@ class FileShareController extends Controller
     public function deleteExpiredFiles()
     {
         $timeNow = \Carbon\Carbon::now()->toDateTimeString();
-        dd($timeNow);
+
         # Выбрать все устаревшие файлы.
-        $filesInfo = FileShare::where('date_delete', '<=' , $timeNow);
+        $filesInfo = FileShare::where('date_delete', '<=' , $timeNow)->get();
 
+        foreach ($filesInfo as $one)
+        {
+            $file_uri = $this->storagePath.'/'.$one->file_name;
 
-        dd($filesInfo);
-        dd();
+            if ( SF::File_Exist($file_uri) )
+                SF::File_Delete($file_uri);
+
+            $one->delete();
+        }
+
         return redirect()->route('index');
     }
 
