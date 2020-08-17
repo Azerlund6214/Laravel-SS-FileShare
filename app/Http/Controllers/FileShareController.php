@@ -41,6 +41,31 @@ class FileShareController extends Controller
     public function addFile(Request $request)
     {
 
+        $file = $request->file('loaded_file');
+
+        // отображаем имя файла
+        echo 'File Name: '.$file->getClientOriginalName();
+        echo '<br>';
+
+        //отображаем расширение файла
+        echo 'File Extension: '.$file->getClientOriginalExtension();
+        echo '<br>';
+
+        //отображаем фактический путь к файлу
+        echo 'File Real Path: '.$file->getRealPath();
+        echo '<br>';
+
+        //отображаем размер файла
+        echo 'File Size: '.$file->getSize();
+        echo '<br>';
+
+        //отображаем Mime-тип файла
+        echo 'File Mime Type: '.$file->getMimeType();
+
+
+        dd(123);
+        #############
+
         $this->validate($request, [
                 'author_nickname'=>'required|max:10',
                 'message'=>'required|max:255',

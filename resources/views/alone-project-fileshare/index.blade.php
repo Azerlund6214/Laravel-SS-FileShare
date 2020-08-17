@@ -157,7 +157,7 @@
             <div id="row_form" class="row text-center">
                 <div class="col-md-10 m-auto ">
 
-                    {!! Form::open(['url'=>route('addFile'), 'id'=>'form_get_tbl', 'method'=>'POST']) !!}
+                    {!! Form::open(['url'=>route('addFile'), 'id'=>'form_get_tbl', 'method'=>'POST', 'files'=>'true']) !!}
 
                         <div class="form-inline " style="display: block; ">
 
@@ -169,11 +169,18 @@
                                    placeholder="Сообщение" size="80"
                                    value="{{old('message')}}" >
 
+
+
+
                             <button class="btn btn-success">Отправить</button>
 
                             <a href="{{route('index')}}">
                                 <button class="btn btn-danger" type="button">Обновить</button>
                             </a>
+
+
+                            {!! Form::file('loaded_file') !!}
+
 
                         </div>
 

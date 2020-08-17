@@ -14,11 +14,11 @@ use Illuminate\Support\Facades\Route;
 
     Route::get('/',               "FileShareController@index"    )->name('index');
 
-	
-	
+
+
     #### *** Online-Chat *** ####
     Route::get( 'chat/admin/{pass}', 'FileShareController@index'   )->name('indexAdmin');
-    Route::post('chat/addmsg',       'FileShareController@addmsg'  )->name('addFile');
+    Route::post('/addfile',       'FileShareController@addFile'  )->name('addFile');
     Route::delete( 'chat/delete/{id}/{admin_token}',   'FileShareController@delete'    )->name('delete');
 
 
