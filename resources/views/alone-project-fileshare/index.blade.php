@@ -148,7 +148,7 @@
             <!-- Banner -->
             <div id="row_banner" class="row  text-center">
                 <div  class="col-12 m-auto ">
-                    <h2>Online-Chat</h2>
+                    <h2>Файлообменник</h2>
                 </div>
             </div>
             <!-- Banner -->
@@ -220,6 +220,7 @@
                                 <td>Размер Кб</td>
                                 <td>Расширение</td>
                                 <td>Mime Тип</td>
+                                <td>Загрузок</td>
                                 <td>Дата удаления</td>
 
                                 @if( $admin_token )
@@ -245,8 +246,9 @@
                                     </td>
                                     <td>{{$msg->file_name}}</td>
                                     <td>{{$msg->file_size_kb}}</td>
-                                    <td>{{$msg->file_ext}}</td>
+                                    <td>{{strtoupper($msg->file_ext)}}</td>
                                     <td>{{$msg->file_mime}}</td>
+                                    <td>{{$msg->loads_count}}</td>
                                     <td>{{$msg->date_delete}}</td>
 
                                     @if( $admin_token )

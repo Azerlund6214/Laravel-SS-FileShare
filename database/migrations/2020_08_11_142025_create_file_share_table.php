@@ -19,10 +19,11 @@ class CreateFileShareTable extends Migration
 
             $table->string('short_url')->comment('Ссылка для скачивания.');
             $table->string('file_name')->comment('123.jpg');
+            $table->integer('loads_count')->default(0);
 
-            $table->integer('file_size_bytes')->comment('');
-            $table->integer('file_size_kb')->comment('')->nullable();
-            $table->integer('file_size_mb')->comment('')->nullable();
+            $table->integer('file_size_bytes');
+            $table->integer('file_size_kb')->nullable();
+            $table->integer('file_size_mb')->nullable();
             $table->string('file_ext')->comment('.jpg .rar и тд');
             $table->string('file_mime')->comment('Mime type');
 

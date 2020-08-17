@@ -44,6 +44,8 @@ class FileShareController extends Controller
 
         $fileInfo = FileShare::where('short_url', $short_url )->first();
 
+        $fileInfo->increment('loads_count');
+
         $file_uri = $this->storagePath.'/'.$fileInfo->file_name;
 
 
