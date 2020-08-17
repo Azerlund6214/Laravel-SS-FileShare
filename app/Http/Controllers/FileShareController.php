@@ -4,11 +4,17 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 
 use Illuminate\Foundation\Validation\ValidatesRequests; # Трейт для валидации
+use Illuminate\Support\Facades\Storage;
 
 use App\AllMyClasses\SF; #
 
-use App\FileShare; # Модель
+use App\FileShare;
 
+# Модель
+
+    /*
+     * Намеренно не использую фасад Storage
+     * */
 
 class FileShareController extends Controller
 {
@@ -18,7 +24,7 @@ class FileShareController extends Controller
 
     public $storagePath = "storage"; #
     public $storageTimeDays = 7; # Срок хранения файлов
-    public $maxStorageSizeMb = 7; # Максмальный объем хранилища Mb
+    public $maxStorageSizeMb = 7; # Максмальный объем хранилища Mb TODO
     public $maxFileSizeKb = 1024; # Предельный размер файлв в Кб
 
 
@@ -31,6 +37,11 @@ class FileShareController extends Controller
     {
         # TODO: Проверка входных данных
 
+
+        $storagePath  = Storage::disk('local')->getDriver()->getAdapter()->getPathPrefix();
+
+        dd(Storage::disk('local'));
+
         $fileExist = FileShare::where('short_url', $short_url )->count() >= 1;
 
         if ( ! $fileExist)
@@ -40,7 +51,10 @@ class FileShareController extends Controller
 
         $file_uri = '/'.$this->storagePath.'/'.$fileInfo->file_name;
 
-        echo "<a href='$file_uri'>$file_uri</a>";
+        echo "<a href='$file_uri' download>$file_uri</a>";
+
+        return response()->download($file_uri);
+        return Storage::download('file.jpg');
         dd('Файл есть', $fileInfo);
 
     }
@@ -104,7 +118,7 @@ class FileShareController extends Controller
         # TODO: Проверка на запрещенные mime
 
         # TODO: !!!! Проверка на исполняемые и .php файлы (PHP-Injection)
-        # Это дыра в безопасности. По-идее можно отключить исполнение скриптов в отдельной папке(в .htaccess)
+        # TODO: !!!! Это дыра в безопасности. По-идее можно отключить исполнение скриптов в отдельной папке(в .htaccess)
 
         # TODO: Проверка на первые байты файла (реальный тип файла)
 
@@ -130,8 +144,9 @@ class FileShareController extends Controller
 
 
         //перемещаем загруженный файл
-        $file->move($this->storagePath, $file->getClientOriginalName());
-
+        #$file->move($this->storagePath, $file->getClientOriginalName());
+        Storage::putFile($path, $file);
+        Storage::
 
         return redirect()->route('index');
 
