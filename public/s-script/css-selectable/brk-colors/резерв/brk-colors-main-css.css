@@ -1,0 +1,36 @@
+
+/* Тут основные цвета проекта */
+/* 123 */
+
+
+
+	/* 2 ГЛАВНЫХ ЦВЕТА */
+	.brk-base { background:  var( --brk-base ) ; }
+	.brk-sec   { background:  var( --brk-sec ) ; }
+
+	/* Оттенки BASE */
+	.brk-base-1 { background:  var( --brk-base-1 ) ; }
+	.brk-base-2 { background:  var( --brk-base-2 ) ; }
+	.brk-base-3 { background:  var( --brk-base-3 ) ; }
+	.brk-base-4 { background:  var( --brk-base-4 ) ; }
+	.brk-base-5 { background:  var( --brk-base-5 ) ; }
+	.brk-base-6 { background:  var( --brk-base-6 ) ; }
+
+	/* Оттенки SEC */
+	.brk-sec-1 { background:  var( --brk-sec-1 ) ; }
+	.brk-sec-2 { background:  var( --brk-sec-2 ) ; }
+	.brk-sec-3 { background:  var( --brk-sec-3 ) ; }
+	.brk-sec-4 { background:  var( --brk-sec-4 ) ; }
+	.brk-sec-5 { background:  var( --brk-sec-5 ) ; }
+	.brk-sec-6 { background:  var( --brk-sec-6 ) ; }
+
+	/* Цвет текста почти как 2 осн цвета */
+	.brk-text-subbase { color:  var( --brk-text-subbase ) ; }
+	.brk-text-subsec   { color:  var( --brk-text-subsec ) ; }
+
+	
+	/* Цвет текста как 2 осн цвета */
+	.brk-text-base { color:  var( --brk-base ) ; }
+	.brk-text-sec   { color:  var( --brk-sec ) ; }
+
+/* End */

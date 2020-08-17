@@ -1,0 +1,5 @@
+background-image:	-webkit-linear-gradient<?php echo $navbar_bg_gradient ;?> ; /* */
+background-image:	   -moz-linear-gradient<?php echo $navbar_bg_gradient ;?> ; /* */
+background-image:		-ms-linear-gradient<?php echo $navbar_bg_gradient ;?> ; /* */
+background-image:		 -o-linear-gradient<?php echo $navbar_bg_gradient ;?> ; /* */
+background-image:			linear-gradient<?php echo $navbar_bg_gradient ;?> ; /* */

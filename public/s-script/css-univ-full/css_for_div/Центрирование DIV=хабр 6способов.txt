@@ -1,0 +1,15 @@
+https://habr.com/post/238449/
+
+
+ÖÅÍÒĞÈĞÎÂÀÍÈÅ DIV (âåğò è ãîğ) https://www.w3schools.com/howto/howto_css_center-vertical.asp
+
+https://bootstraptema.ru/stuff/snippets_bootstrap/information/sdelat_po_centru_v_bootstrap/21-1-0-2075
+
+http://htmlbook.ru/content/vyravnivanie-sloya-po-tsentru
+
+.center-div-hor/ver
+
+justify-content-center align-items-center
+
+
+123

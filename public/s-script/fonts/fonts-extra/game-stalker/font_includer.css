@@ -1,0 +1,18 @@
+
+.font-stalker { font-family: 'Stalker' ; }
+
+@font-face
+{
+	font-family: "Stalker";
+	
+    src: local('?'), /* Всегда грузит только с сайта */
+		url("font.ttf")   format("truetype");   /* все современные браузеры */
+		
+	/*
+
+	*/
+	
+	font-weight: normal;
+	font-style: normal;
+	
+}

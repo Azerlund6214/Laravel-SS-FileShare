@@ -1,0 +1,16 @@
+
+
+https://cryptosystems.world/
+
+figcaption
+    transition: opacity 0.35s, transform 0.5s, -webkit-transform 0.5s;
+}
+figcaption::before {
+    border-top: 1px solid #ffffff;
+    border-bottom: 1px solid #ffffff;
+    -webkit-transform: scale(0, 1);
+    transform: scale(0, 1);
+
+
+
+123

@@ -1,0 +1,9 @@
+
+топ шаблон для аякса = https://filyanin.ru/8-prostoy-primer-peredachi-html-na-ajax-jquery.html
+
+
+
+ajax
+http://javascript.ru/ajax/intro
+
+123

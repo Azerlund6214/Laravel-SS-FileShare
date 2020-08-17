@@ -1,0 +1,31 @@
+
+
+
+
+ФУЛЛ гайд https://www.ashmanov.com/education/articles/favikon-dlya-sajta/
+
+
+
+
+
+
+<!-- Если favicon лежит в корне сайта. РЕКОМЕНДУЕМЫЙ вариант. -->
+<link rel="icon" href="/favicon.ico" type="image/x-icon">
+<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+
+<!-- Если favicon лежит в корне сайта. Полный адрес к иконке. -->
+<link rel="icon" href="http://yoursite.ru/favicon.ico" type="image/x-icon">
+<link rel="shortcut icon" href="http://yoursite.ru/favicon.ico" type="image/x-icon">
+
+<!-- Если favicon лежит в папке Выше. НЕ РЕКОМЕНДУЕМЫЙ вариант. -->
+<link rel="icon" href="http://yoursite.ru/путь_к_иконке/favicon.ico" type="image/x-icon">
+<link rel="shortcut icon" href="http://yoursite.ru/путь_к_иконке/favicon.ico" type="image/x-icon">
+
+
+//Или вы смотрите на свой сайт на местном уровне? потому что Google Chrome не может отображать значки, если они не загружены на веб-сервер, это может быть вашей проблемой.
+
+
+
+
+
+123

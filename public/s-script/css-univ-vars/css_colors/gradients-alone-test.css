@@ -1,0 +1,61 @@
+
+/* ДЛЯ ТЕСТА */
+
+
+/*
+в лучшие
+
+
+в хорошие
+
+
+На разбор
+
+radial-gradient(circle at top left,#3c33ff,#780abc );
+linear-gradient(45deg,#563bac 0,#5327ab 24%,#5b75ae 48%,#66dbb1 100%);
+#cc00cc, #cc0000
+
+ультра #48b1e0 0%, #48b1e0 5%, #ba68aa 35%, #faac2f 65%, #faac2f 100%
+продолжение 45deg, #48b1e0 0%, #ba68aa 50%, #faac2f 100%
+linear-gradient(to right, #fe563a 0%, #e43a78 100%);
+
+УЛЬТРА !!! linear-gradient(to right,#c75be6,#39baff,#38eeb9);
+фон инстаграмма = radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+
+linear-gradient(105deg,#0ecad4,#5d67f0);
+linear-gradient(135deg,#08c1ef,#6dcf73);
+
+
+linear-gradient(40deg, #45cafc, #303f9f)
+linear-gradient(40deg, #2096ff, #05ffa3)
+
+
+*/
+
+
+
+.grad-40 { background-image: linear-gradient(45deg, #faa51a, #f47a20); }
+
+.grad-41 { background-image: linear-gradient(45deg, #C33764, #1D2671); }
+.grad-42 { background-image: linear-gradient(45deg, #C33764, #1D2671); }
+.grad-43 { background-image: linear-gradient(45deg, #C33764, #1D2671); }
+.grad-44 { background-image: linear-gradient(45deg, #C33764, #1D2671); }
+.grad-45 { background-image: linear-gradient(45deg, #C33764, #1D2671); }
+.grad-46 { background-image: linear-gradient(45deg, #C33764, #1D2671); }
+.grad-47 { background-image: linear-gradient(45deg, #C33764, #1D2671); }
+.grad-48 { background-image: linear-gradient(45deg, #C33764, #1D2671); }
+.grad-49 { background-image: linear-gradient(45deg, #C33764, #1D2671); }
+
+.grad-50 { background-image: linear-gradient(45deg, #C33764, #1D2671); }
+.grad-51 { background-image: linear-gradient(45deg, #C33764, #1D2671); }
+.grad-52 { background-image: linear-gradient(45deg, #C33764, #1D2671); }
+.grad-53 { background-image: linear-gradient(45deg, #C33764, #1D2671); }
+.grad-54 { background-image: linear-gradient(45deg, #C33764, #1D2671); }
+.grad-55 { background-image: linear-gradient(45deg, #C33764, #1D2671); }
+.grad-56 { background-image: linear-gradient(45deg, #C33764, #1D2671); }
+.grad-57 { background-image: linear-gradient(45deg, #C33764, #1D2671); }
+.grad-58 { background-image: linear-gradient(45deg, #C33764, #1D2671); }
+.grad-59 { background-image: linear-gradient(45deg, #C33764, #1D2671); }
+
+
+/* End */

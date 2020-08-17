@@ -1,0 +1,35 @@
+
+/* Светлость текста или фона */
+/* Затемнение от БЕЛОГО к ЧЕРНОМУ ( wb = white-black ) 100-0%, rgb(N,N,N) */
+
+/* Копия файла в соседней папке = light-text.css */
+
+/* ШАБЛОН = 100-95(-1) 95-0(-5) */
+
+.light-bg-100 { background: #ffffff ; } /* 100% 255 = белый */
+.light-bg-99   { background: #fcfcfc ; } /* 99% 252 */
+.light-bg-98   { background: #fafafa ; } /* 98% 250 = затемненный белый - FTC */
+.light-bg-97   { background: #f7f7f7 ; } /* 97% 247 */
+.light-bg-96   { background: #f5f5f5 ; } /* 96% 245 */
+.light-bg-95   { background: #f3f3f3 ; } /* 95% 243 = затемненный белый - FTC */
+.light-bg-90   { background: #e6e6e6 ; } /* 90% 230 */
+.light-bg-85   { background: #d9d9d9 ; } /* 85% 217 */
+.light-bg-80   { background: #cccccc ; } /* 80% 204 */
+.light-bg-75   { background: #bfbfbf ; } /* 75% 191 светло-серый FTC*/
+.light-bg-70   { background: #b3b3b3 ; } /* 70% 179 */
+.light-bg-65   { background: #a6a6a6 ; } /* 65% 166 */
+.light-bg-60   { background: #999999 ; } /* 60% 153 */
+.light-bg-55   { background: #8c8c8c ; } /* 55% 140 */
+.light-bg-50   { background: #808080 ; } /* 50% 128 */
+.light-bg-45   { background: #737373 ; } /* 45% 115 */
+.light-bg-40   { background: #666666 ; } /* 40% 102 */
+.light-bg-35   { background: #595959 ; } /* 35% 89 */
+.light-bg-30   { background: #4d4d4d ; } /* 30% 77 */
+.light-bg-25   { background: #404040 ; } /* 25% 64 */
+.light-bg-20   { background: #333333 ; } /* 20% 51 */
+.light-bg-15   { background: #262626 ; } /* 15% 38 */
+.light-bg-10   { background: #1a1a1a ; } /* 10% 26 */
+.light-bg-5     { background: #0d0d0d ; } /*  5% 13 */
+.light-bg-0     { background: #000000 ; } /*  0% 0  */
+
+/* End */

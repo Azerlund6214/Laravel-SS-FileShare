@@ -1,0 +1,62 @@
+
+/*  */
+
+/*  */
+/* 
+inset = Тень выводится внутри элемента. Необязательный параметр.
+сдвиг по x = Смещение тени по горизонтали относительно элемента. Положительное значение этого параметра задает сдвиг тени вправо, отрицательное — влево. Обязательный параметр.
+сдвиг по y = Смещение тени по вертикали относительно элемента. Положительное значение задает сдвиг тени вниз, отрицательное — вверх. Обязательный параметр.
+размытие = Задает радиус размытия тени. Чем больше это значение, тем сильнее тень сглаживается, становится шире и светлее. Если этот параметр не задан, по умолчанию устанавливается равным 0, тень при этом будет четкой, а не размытой.
+растяжение = Положительное значение растягивает тень, отрицательное, наоборот, ее сжимает. Если этот параметр не задан, по умолчанию устанавливается 0, при этом тень будет того же размера, что и элемент.
+цвет = Цвет тени в любом доступном CSS формате, по умолчанию тень черная. Необязательный параметр.
+ */
+
+
+
+/* мои круговые */
+/* shadow-round-СТЕПЕНЬ_РАЗМЫТОСТИ(2,4,6)-длина_тени(1-5) */
+
+/* Для чисто черного цвета необходим альфа-канал  иначе очень темная тень */
+.shadow-around-2-1 { box-shadow:0 0 10px rgba( 0,0,0 , .2 ) }
+.shadow-around-2-2 { box-shadow:0 0 20px rgba( 0,0,0 , .2 ) }
+.shadow-around-2-3 { box-shadow:0 0 30px rgba( 0,0,0 , .2 ) }
+.shadow-around-2-4 { box-shadow:0 0 40px rgba( 0,0,0 , .2 ) }
+.shadow-around-2-5 { box-shadow:0 0 50px rgba( 0,0,0 , .2 ) }
+
+.shadow-around-4-1 { box-shadow:0 0 10px rgba( 0,0,0 , .4 ) }
+.shadow-around-4-2 { box-shadow:0 0 20px rgba( 0,0,0 , .4 ) }
+.shadow-around-4-3 { box-shadow:0 0 30px rgba( 0,0,0 , .4 ) }
+.shadow-around-4-4 { box-shadow:0 0 40px rgba( 0,0,0 , .4 ) }
+.shadow-around-4-5 { box-shadow:0 0 50px rgba( 0,0,0 , .4 ) }
+
+.shadow-around-6-1 { box-shadow:0 0 10px rgba( 0,0,0 , .6 ) }
+.shadow-around-6-2 { box-shadow:0 0 20px rgba( 0,0,0 , .6 ) }
+.shadow-around-6-3 { box-shadow:0 0 30px rgba( 0,0,0 , .6 ) }
+.shadow-around-6-4 { box-shadow:0 0 40px rgba( 0,0,0 , .6 ) }
+.shadow-around-6-5 { box-shadow:0 0 50px rgba( 0,0,0 , .6 ) }
+
+
+/* УЛЬТРА - специально для белого фона   30px-самые оптимальные (взято из FTC)*/
+/* 2 варианта написания - grAy grEy  чтоб потом не искать "ошибку" (правильно через A) */
+.shadow-around-gray-1   , .shadow-around-grey-1 { box-shadow: 0 0 30px 1px #e4e1e1 ; }
+.shadow-around-gray-2   , .shadow-around-grey-2 { box-shadow: 0 0 30px 2px #e4e1e1 ; }
+.shadow-around-gray-3   , .shadow-around-grey-3 { box-shadow: 0 0 30px 3px #e4e1e1 ; }
+.shadow-around-gray-4   , .shadow-around-grey-4 { box-shadow: 0 0 30px 4px #e4e1e1 ; }
+.shadow-around-gray-5   , .shadow-around-grey-5 { box-shadow: 0 0 30px 5px #e4e1e1 ; }
+.shadow-around-gray-6   , .shadow-around-grey-6 { box-shadow: 0 0 30px 6px #e4e1e1 ; }
+.shadow-around-gray-7   , .shadow-around-grey-7 { box-shadow: 0 0 30px 7px #e4e1e1 ; }
+.shadow-around-gray-8   , .shadow-around-grey-8 { box-shadow: 0 0 30px 8px #e4e1e1 ; }
+.shadow-around-gray-9   , .shadow-around-grey-9 { box-shadow: 0 0 30px 9px #e4e1e1 ; }
+
+
+
+/*
+годная тень для белых блоков (хз, тестить)
+.shadow-down-123-1 { box-shadow: 0 12px 38px rgba(52,57,75,.15),0 3px 1px rgba(0,1,5,.1) }
+*/
+
+
+
+
+
+/* End */

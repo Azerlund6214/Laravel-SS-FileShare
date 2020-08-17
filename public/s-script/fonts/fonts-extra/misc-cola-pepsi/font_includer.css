@@ -1,0 +1,18 @@
+
+.font-cola-pepsi { font-family: 'Pepsi Cola' ; }
+
+@font-face
+{
+	font-family: "Pepsi Cola";
+	
+    src: local('?'), /* Всегда грузит только с сайта */
+        url("font.otf")   format("opentype");
+		
+	/*
+
+	*/
+	
+	font-weight: normal;
+	font-style: normal;
+	
+}

@@ -1,0 +1,20 @@
+11:53 09.08.2020
+
+
+common - стандартные библиотеки (jquery animate и тд)
+project - для этого проекта
+dev - мое, в разработке
+my - самописное либо модифицированное
+
+
+$Libs_path_common = "/libs/common";
+
+$Libs_path_project = "/libs/project";
+
+$Libs_path_my = "/libs/my";
+
+$Libs_path_dev = "/libs/dev";
+
+
+
+123

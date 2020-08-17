@@ -1,0 +1,13 @@
+
+@font-face
+{
+	font-family: "Gill Sans Nova Shadowed Outline";
+	
+    src: local('?'), /* Всегда грузит только с сайта */
+		url("font.ttf")   format("truetype");   /* все современные браузеры */
+		
+	/*
+		
+	*/
+	
+}

@@ -1,0 +1,15 @@
+
+
+particles.js
+
+
+https://megasoft.biz/finlance/finlance/assets/js/particles.min.js
+https://megasoft.biz/finlance/finlance/index-3.html
+
+
+офф гит https://github.com/VincentGarreau/particles.js
+
+Демо + настройки + экспорт json  https://vincentgarreau.com/particles.js/#default
+
+
+123

@@ -1,0 +1,14 @@
+
+/*  */
+
+/* http://htmlbook.ru/css/visibility */
+
+/* Сокрытие */
+.hidden   { visibility: hidden !important;  opacity: 0; } /* Не видно и НЕ КЛИКАЕТСЯ */
+
+/* Видимость */
+.visible { visibility: visible !important; opacity: 1; }
+
+/* у b4 есть класс visible и он приоритетный (без опасити), поэтому перезаписываю его здесь */
+
+/* End */

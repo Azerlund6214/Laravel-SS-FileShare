@@ -1,0 +1,45 @@
+                               8G088888                                                             
+                             0CLLCCCCCCCCGCf1LGGG00008888                                           
+                          0Cti1tttfffffffi::tLLLLLLCCCCCCti1LCGGGGG000088088                        
+                        GLLLCCCLLLLLLf;,::i1t11111ttttti:,ifLLLLLCCCCCCfi:1LCCCGGGGG000G0           
+                     GfiittffffLLCLf1;;tLCCCCCCLLLLLt:,:i1111111111111;,,1fLLLLLLLLCCfi::t          
+                  8Cfffffftttttti:,,,;1tttttfffLLLfi:ifCCCCCCCCCCCLt:,;tfffftttttft1i:::;L          
+               8GftfLCCCCCCCCCLt;;1fLLLfffftttt1:,,:;1t11ttttffLLti:ifCCCCCCCCCCCfi::,;fLG          
+             8Ctii11111111111;,,ifLLLLLCCCCCCL1;:1LCCLLLfffffft:,,:i1t111ttttffti:::iitCLG          
+           8CLLCCCCCCLLLLf;.,i1ttt111111111i;..;fLLLLLLCCCCCCt;;1LCCCCCLLLLLf1::,:;tCttCL0          
+        8Li:i1tttffLLLLf1;ifCCCCCCCCCCCCL1,,;1ttttt1111111ii,.,1fffffLLLLCCfi;::::LCCttCL0          
+        f ...  .....,,:,.,;iii11ttfffLLt;:1LCCCCCCCCCCCCLi,,;tttt11111111;;::,:1f;CLCtfCL0          
+        L 1ftt11ii;;:,...,...      ..,,..,;;;ii11ttffff1::1CCCCCCCCCCCCfi:,,,iLCL;CLC1tCG8          
+        C LGGGGGGGGGGt  ;CLLfftt1ii;;.......        ..,..,;;;ii11tttffi::,:i:LCCf;LLCtL8            
+        G fCCCCCCCCCGf. iGCGGGGGGGGGG;  1CLLfftt1ii;;....,..        ..,,:ifL:LCCf;CLG               
+        G.fGCCCCCCCCGf. iGCCCCCCCCCCGi  fGCGGGGGGGGGG;  1CLLfftt1ii;,..,tCCL:LLLt:t,;08             
+        0.fGCCCCCCCCCL. iGCCCCCCCCCCGi  tGCCCCCCCCCCGi  tGCGGGGGGGGG1 .,tfft:ttt:  ..,,iL0          
+        0 iCCCGGGGGGGL. iGCCCCCCCCCCCi  tCCCCCCCCCCCGi  tGCCCCCCCCCG1 .,ttf1:f1, .,,,.,,,:1C8       
+         C1ttti1ttttt;. .tLCCCCCCCCCG;  fGCCCCCCCCCCG;  tGCCCCCCCCCG1 .,tff1.:  ..,,,,,::::.i       
+          0CCG;LCLCi,LL1, ..,,,:;;ii;.  :fLCCCGGGGGGG;  fGCCCCCCCCCG1 .,fft;.   .:;ii111ttt,;       
+           8GC:fGCGt;GCGGi.. ..           ..,::;ii11i.  :LCCCGGGGGGG1 .,fft11, .iffffffffff,i       
+             8LLCGGt:GCCGf:f;,,:::,,,.  ......     .,,.,.,:;;;;ii1tt: .:ttfff; .tffffffffff,1       
+             8 G:1Ct:CCCGtiGGLi,,,,:,,,,::;;;;,...ittt11iiiiii.  ;ii111tfffff: .tffffffffff.t       
+          8C1:..  ,,,CLLCt;CCCGi...:11ttttfffft. ,ffttt111iii1, .1fffffffffff: .tffffffffff.f       
+       8C1:,,,..,.   iLCCt;CCCG1...1fffffffffff, ,ftttttt11111, .1ftfffffffff: ,fffffffffft f       
+       1 ..........   .1Cf:CCCG1...1fffffffffff, ,fttttttt111t, .tfffffffffft, .i11111111t110       
+       i.1ii;:::,,.     .,,CCCG1...ifffffffffft. ,fttttttttttt, .ittt111i;::,ii.tLLCG:L8            
+       t,t1tttt111;. .:;:,,1CCGt...ifffffffffff. ,tfttt11ii;;,    ....    :t0 C,     ;G 8GG8        
+       t.111111111t, .11111i1tCt.. ifffffffftt;  .,:,,...           .;..,f    L:    8,fGG8          
+       f.1111111111, .1111111i1;...;1iii;;;;::,. ..,     ......  .,..,1f,8    L;    8LG8            
+       L.1111111111: .1111111111i:. :i;;;iiiii11,. ,;;::,,,........;f0 8:8    f; 8L;C               
+       C i11111111t: .11111111111;. ;1111111111t:  ittttt111ii,...1    0:8    t.i::::;L8            
+       8ft1i;;;iiii,  it111111111;. ;11111111111:  i111111tttt; ..L    0:8  8L.  .,:, ,;f0          
+            L;i,;;;,,:,:;;iiii111;  :1i1i111111t:  it11111111t;...L    G: 0t,  .,:,,,.,,.,t         
+             Li,111;:ti,   ....,,.  .;iii111111t: .1t11111111t;...L    C.;.  ...:;;ii1tfL;,8        
+              01;11;:11t:....         ..,,::;iii,..1ttttttt11t;...L  80ti11,  :G88       f,         
+                Lii;:11t;,;........ ...            .;iii1111tt;...C8008    L  L          1:         
+                 0f:,111;:t1:.....  ....,,::. ..,1ffCCLft11iii,  ,f08      L  L          1;         
+                   Gi;11;:ttt:...:tffLCG0088G, ,0          81 .tC0         f  L          i;         
+                    8f;ii,t1t;.. L           : ,8           t  C           f .G        80,i         
+                      01:,t1t;.. L           : ,8           t .C          8i  1Lft1i;;;:;10         
+                        L:i1ti.. f           : ,8           t  f0CLft11i;;;:;ii1tfLCGG08            
+                         0ti1i.. f           : ,0 80GCLft1ii,.,:;;i1tfLCG08                         
+                           C1;.. f  880GCLfti. .:;;;;ii1tfLC088                                     
+                            8f,  ,;;;;;ii1ttLCGG008                                                 
+                              8CCGG088                                                              

@@ -1,0 +1,11 @@
+
+настроить базу в .env
+
+
+в config/databases.php
+в mysql убрать у 2 строк кодировки "mb4"  (55-56 строки)
+Надо что бы так:            'charset' => 'utf8',
+            'collation' => 'utf8_unicode_ci',
+Там же заполнить поле prefix. В конце поставить _
+
+123

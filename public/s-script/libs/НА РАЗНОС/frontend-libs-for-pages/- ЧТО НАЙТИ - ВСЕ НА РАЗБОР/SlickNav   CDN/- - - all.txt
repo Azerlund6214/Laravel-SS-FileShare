@@ -1,0 +1,20 @@
+
+ОФФ + ГАЙД  https://slicknav.io/
+http://qaru.site/questions/8877580/positioning-of-slicknav-menu
+
+еще гайд(перевод офф гайда) https://roothelp.ru/lessons/adaptivnoe_menu_slicknav
+
+
+https://cdnjs.com/libraries/SlickNav
+
+1.0.10
+https://cdnjs.cloudflare.com/ajax/libs/SlickNav/1.0.10/jquery.slicknav.js
+https://cdnjs.cloudflare.com/ajax/libs/SlickNav/1.0.10/jquery.slicknav.min.js
+https://cdnjs.cloudflare.com/ajax/libs/SlickNav/1.0.10/slicknav.css
+https://cdnjs.cloudflare.com/ajax/libs/SlickNav/1.0.10/slicknav.min.css
+
+
+
+
+
+123

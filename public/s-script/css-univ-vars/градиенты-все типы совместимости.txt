@@ -1,0 +1,10 @@
+
+    background: #fe563a; /* Old browsers */
+    background: -moz-linear-gradient(left, #fe563a 0%, #e43a78 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left, #fe563a 0%,#e43a78 100%); /* Chrome10-25,Safari5.1-6 */
+    background: -ms-linear-gradient(left, #fe563a 0%,#e43a78 100%);
+    background: linear-gradient(to right, #fe563a 0%,#e43a78 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fe563a', endColorstr='#e43a78',GradientType=1 ); /* IE6-9 */
+
+
+123

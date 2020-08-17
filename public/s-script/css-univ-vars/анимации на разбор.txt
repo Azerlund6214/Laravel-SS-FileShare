@@ -1,0 +1,43 @@
+
+https://html5book.ru/krasivye-knopki-dlya-sayta-chast-3/
+
+Медленное ВРАЩЕНИЕ по кругу
+.author-after_post {
+    animation: 1s linear 0s normal none infinite running rot;
+    -webkit-animation: 3s linear 0s normal none infinite running rot;
+}
+
+кнопка - медленно увелич и уменьш
+animation: 5s linear 3s infinite alternate-reverse none running pulse;
+
+
+transform: scale(1.05,1.05);
+box-shadow: 0 0 20px -2px #aaa;
+transition: all .1s ease-in-out;
+
+
+
+.ani-reflection:before {
+    position: absolute;
+    top: 0;
+    left: -70%;
+    z-index: 2;
+    display: blockb;
+    content: "";
+    width: 45%;
+    height: 100%;
+    background: -webkit-gradient(linear,left top,right top,from(hsla(0,0%,100%,0)),to(hsla(0,0%,100%,.35)));
+    background: linear-gradient(90deg,hsla(0,0%,100%,0) 0,hsla(0,0%,100%,.35));
+    -webkit-transform: skewX(-45deg);
+    transform: skewX(-45deg);
+    -webkit-animation: reflection 4s ease-in-out infinite;
+    animation: reflection 4s ease-in-out infinite;
+}
+
+
+
+анимация пульс  .anim-pusle   ставить для кнопок лайков
+-webkit-animation: pulse 1s linear infinite;
+    animation: pulse 1s linear infinite;   подправить
+
+123

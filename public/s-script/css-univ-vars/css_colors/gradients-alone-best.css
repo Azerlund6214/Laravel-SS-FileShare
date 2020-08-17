@@ -1,0 +1,41 @@
+
+	/* Градиенты - ЛУЧШИЕ */
+
+
+
+/* Набор - Отовсюду */
+
+.grad-07 { background-image: linear-gradient(45deg, #e8fb66, #37ed7d); }
+.grad-12 { background-image: linear-gradient(45deg, #c5e809, #00daef ); }
+.grad-13 { background-image: linear-gradient(45deg, #41f3af, #deb4f1, #fee86a ); }
+.grad-15 { background-image: linear-gradient(45deg, #ac5e3b, #723686, #360690); }
+.grad-18 { background-image: linear-gradient(45deg, #c72ebd, #ffba1e, #02ccff); }
+.grad-26 { background-image: linear-gradient(45deg, #b4ed50, #07f7bf); }
+.grad-33 { background-image: linear-gradient(45deg, #57D28F, #DCE554); }
+.grad-34 { background-image: linear-gradient(45deg, #D2F370, #00B95E); }
+.grad-35 { background-image: linear-gradient(45deg, #2A9EFF, #FF4968); }
+
+
+
+/* Набор 1 */
+.grad-hibiscus 			{ background-image: linear-gradient(to right bottom, #f05f57, #c83d5c, #99245a, #671351, #360940); }
+.grad-cyan-dark-green 	 { background-image: linear-gradient(45deg, #0097a7, #b2ff59); }
+.grad-purple-deep-orange { background-image: linear-gradient(45deg, #8e24aa, #ff6e40); }
+.grad-green-tea 		 	{ background-image: linear-gradient(45deg, #004b91, #78cc37); }
+.grad-plum 				 { background-image: linear-gradient(45deg, #e35c67, #381ce2); }
+.grad-passion-fruit		 { background-image: linear-gradient(45deg, #8137F7, #F6AB3E); }
+.grad-sublime-vivid 	 	{ background-image: linear-gradient(45deg, #FC466B, #3F5EFB); }
+.grad-king-yna 			 { background-image: linear-gradient(45deg, #1a2a6c, #b21f1f); }
+.grad-summer			 { background-image: linear-gradient(45deg, #22c1c3, #fdbb2d); }
+.grad-crystal-clear		 { background-image: linear-gradient(45deg, #159957, #155799); }
+.grad-celestial 			 { background-image: linear-gradient(45deg, #C33764, #1D2671); }
+.grad-mini				 { background-image: linear-gradient(45deg, #30E8BF, #FF8235); }
+.grad-dawn 				 { background-image: linear-gradient(45deg, #F3904F, #3B4371); }
+.grad-brady-brady-fun-fun{ background-image: linear-gradient(45deg, #00c3ff, #ffff1c); }
+.grad-nepal 				 { background-image: linear-gradient(45deg, #de6161, #2657eb); }
+.grad-sunset 			 { background-image: linear-gradient(45deg, #0B486B, #F56217); }
+.grad-man-of-steel 		 { background-image: linear-gradient(45deg, #780206, #061161); }
+.grad-harmonic-energy	 { background-image: linear-gradient(45deg, #16A085, #F4D03F); }
+.grad-purple-amber 		 { background-image: linear-gradient(45deg, #d500f9, #ffa000); }
+
+/* End */

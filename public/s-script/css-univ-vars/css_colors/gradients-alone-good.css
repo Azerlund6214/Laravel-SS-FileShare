@@ -1,0 +1,66 @@
+
+/* Градиенты - ХОРОШИЕ */
+
+
+/* Набор - Отовсюду */
+.grad-01 { background-image: linear-gradient(45deg, #843cf7, #38b8f2); } 
+.grad-02 { background-image: linear-gradient(45deg, #563bac 0,#5327ab 24%,#5b75ae 48%,#66dbb1 100%); } /* Косяк-Резкое пятно слева */
+.grad-03 { background-image: linear-gradient(45deg, #004b91, #78cc37); }
+.grad-04 { background-image: linear-gradient(45deg, #9B3cb7, #FF396f); }
+.grad-05 { background-image: linear-gradient(45deg, #843cf7, #38b8f2); }
+.grad-06 { background-image: linear-gradient(45deg, #38ef7d, #11998e); }
+.grad-08 { background-image: linear-gradient(45deg, #3de5f9, #095eac); }
+.grad-09 { background-image: linear-gradient(45deg, #7c3fba, #bd55e8); }
+.grad-10 { background-image: linear-gradient(45deg, #119b8e, #37ed7d); }
+.grad-11 { background-image: linear-gradient(45deg, #065bce, #64ff56, #eab58d, #d04bc6);}
+
+.grad-16 { background-image: linear-gradient(45deg, #42e0b3, #eacda8); }
+.grad-19 { background-image: linear-gradient(45deg, #b6ff38, #4bbec3); }
+.grad-20 { background-image: linear-gradient(45deg, #00796a, #6eff7a, #388aff); }
+.grad-23 { background-image: linear-gradient(45deg, #50d38a, #3db75d); } /* с хешлаба */
+.grad-24 { background-image: linear-gradient(45deg, #3777ec, #6bcfcb); }
+.grad-25 { background-image: radial-gradient(45deg, #39b4cb 20%, #5256d0 70%); }
+.grad-27 { background-image: linear-gradient(45deg, #ee1d81, #6e6bce); }
+.grad-28 { background-image: linear-gradient(45deg, #c5003e, #560f50); }
+.grad-29 { background-image: linear-gradient(45deg, #08c1ef, #6dcf73); }
+.grad-30 { background-image: linear-gradient(45deg, #2930b4, #2a9eb0); }
+.grad-32 { background-image: linear-gradient(45deg, #ff00fc, #4b00ff); }
+.grad-36 { background-image: linear-gradient(45deg, #7fcaf1, #ffff5b); }
+.grad-37 { background-image: linear-gradient(45deg, #9576ff, #ff629e); }
+.grad-38 { background-image: linear-gradient(45deg, #9982ed, #f879b6); }
+.grad-39 { background-image: linear-gradient(45deg, #e7166b, #821ced); }
+
+/* Набор 1 */
+.grad-purple-pizzazz 	{ background-image: linear-gradient(to right bottom, #662d86, #8b2a8a, #ae2389, #cf1d83, #ed1e79); }
+.grad-electric-violet 	{ background-image: linear-gradient(to left top, #4a00e0, #600de0, #7119e1, #8023e1, #8e2de2); }
+.grad-portage 			{ background-image: linear-gradient(to left top, #97abff, #798ce5, #5b6ecb, #3b51b1, #123597); }
+.grad-yellow-green 		 { background-image: linear-gradient(45deg, #ffff8d, #b9f6ca); }
+.grad-indigo-dark-blue 	 { background-image: linear-gradient(45deg, #3949ab, #4fc3f7); }
+.grad-green-teal 		 { background-image: linear-gradient(45deg, #43a047, #1de9b6); }
+.grad-purple-light-blue  { background-image: linear-gradient(45deg, #e040fb, #4fc3f7); }
+.grad-cyan-light-green 	 { background-image: linear-gradient(45deg, #00e5ff, #ccff90); }
+.grad-blue-indigo 		 { background-image: linear-gradient(45deg, #2962ff, #3949ab); }
+.grad-strawberry 		 { background-image: linear-gradient(45deg, #FE0B46, #FFAB96); }
+.grad-mint 				 { background-image: linear-gradient(45deg, #23BCBB, #45E994); }
+.grad-pomegranate		 { background-image: linear-gradient(45deg, #9B3cb7, #FF396f); }
+.grad-blackberry		 { background-image: linear-gradient(45deg, #843cf7, #38b8f2); }
+.grad-ibiza-sunset		 { background-image: linear-gradient(45deg, #ee0979, #ff6a00); }
+.grad-cosmic-fusion 	 	{ background-image: linear-gradient(45deg, #ff00cc, #333399); }
+.grad-love-couple		 { background-image: linear-gradient(45deg, #3a6186, #89253e); }
+.grad-grapefruit-sunset  { background-image: linear-gradient(45deg, #e96443, #904e95); }
+.grad-politics 			 { background-image: linear-gradient(45deg, #2196f3, #f44336); }
+.grad-red-ocean 		 	{ background-image: linear-gradient(45deg, #1D4350, #A43931); }
+.grad-flickr 			 { background-image: linear-gradient(45deg, #33001b, #ff0084); }
+.grad-virgin-america 	 { background-image: linear-gradient(45deg, #7b4397, #dc2430); }
+.grad-purple-bliss 		 { background-image: linear-gradient(45deg, #360033, #0b8793); }
+.grad-shdow-night 		 { background-image: linear-gradient(45deg, #000000, #53346D); }
+.grad-dracula 			 { background-image: linear-gradient(45deg, #DC2424, #4A569D); }
+.grad-bloody-mary 		 { background-image: linear-gradient(45deg, #FF512F, #DD2476); }
+.grad-purple-love		 { background-image: linear-gradient(45deg, #cc2b5e, #753a88); }
+
+
+/* Пойдет как затемнение между секциями  (ЕЩЕ ОТРАЗИТЬ ВВЕРХ)  */
+.bg-gradient-6-black{ background-image:linear-gradient(to top,rgba(0,0,0,.8) 0%,transparent 60%,transparent 100%); }
+
+
+/* End */

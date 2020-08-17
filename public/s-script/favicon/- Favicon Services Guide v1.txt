@@ -1,0 +1,25 @@
+20:33 26.03.2020
+
+
+
+ИТОГОВЫЙ СЕРВИС https://www.favicon-generator.org/
+Заливаю изображение
+Скачиваю архив
+Тупо скидываю все картинки в папку
+
+
+Проверка видят ли поисковики фавикон:
+http://favicon.yandex.net/favicon/САЙТ.com
+https://www.google.com/s2/favicons?domain=САЙТ.com
+
+
+
+
+
+
+=====================
+
+Другой СЕРВИС https://realfavicongenerator.net/
+Он генерит другие размеры, придется дописывать CSS
+
+123

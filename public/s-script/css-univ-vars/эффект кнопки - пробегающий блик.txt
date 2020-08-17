@@ -1,0 +1,47 @@
+
+https://sales-generator.ru/blog/vidy-reklamy-v-marketinge/
+19:48 13.04.2020
+
+
+<button class="button button--get-offer ">
+Коммерческое предложение
+::after
+</button>
+
+
+
+
+.button--get-offer {
+    border-radius: 24px;
+    background-image: linear-gradient(-90deg,#b5a110 0%,#dcd71a 100%);
+    position: relative;
+    box-sizing: border-box;
+    text-align: left;
+    font-size: 14px;
+    max-width: 230px;
+    font-family: "Gotham Pro Regular","Helvetica Neue",sans-serif;
+    padding: 10px 20px;
+    overflow: hidden;
+}
+
+
+.button--get-offer:after {
+    content: "";
+    position: absolute;
+    top: -130%;
+    left: -160%;
+    width: 200px;
+    height: 70%;
+    opacity: 0;
+    -webkit-transform: rotate(120deg);
+    transform: rotate(120deg);
+    background: rgba(255,255,255,.13);
+    background: linear-gradient(to right,rgba(255,255,255,.5) 0%,rgba(255,255,255,.5) 77%,rgba(255,255,255,.8) 92%,rgba(255,255,255,0) 100%);
+    -webkit-animation: btnAnimation 3.5s ease-in-out infinite;
+    animation: btnAnimation 3.5s ease-in-out infinite;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+}
+
+
+123

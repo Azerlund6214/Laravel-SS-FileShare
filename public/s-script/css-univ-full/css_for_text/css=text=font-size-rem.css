@@ -1,0 +1,64 @@
+
+/*  */
+
+/*
+https://learn.javascript.ru/css-units
+px Ц абсолютные пиксели, к которым прив€заны и потому не нужны mm, cm, pt и pc. »спользуетс€ дл€ максимально конкретного и точного задани€ размеров.
+em Ц задаЄт размер относительно шрифта родител€, можно относительно конкретных символов: "x"(ex) и "0"(ch), используетс€ там, где нужно упростить масштабирование компоненты.
+rem Ц задаЄт размер относительно шрифта <html>, используетс€ дл€ удобства глобального масштабировани€: элементы которые планируетс€ масштабировать, задаютс€ в rem, а JS мен€ет шрифт у <html>.
+% Ц относительно такого же свойства родител€ (как правило, но не всегда), используетс€ дл€ ширин, высот и так далее, без него никуда, но надо знать, относительно чего он считает проценты.
+vw, vh, vmin, vmax Ц относительно размера экрана.
+*/
+
+/* http://htmlbook.ru/css/font-size */
+
+.fs-01rem { font-size: 0.1rem ; }
+.fs-02rem { font-size: 0.2rem ; }
+.fs-03rem { font-size: 0.3rem ; }
+.fs-04rem { font-size: 0.4rem ; }
+.fs-05rem { font-size: 0.5rem ; }
+.fs-06rem { font-size: 0.6rem ; }
+.fs-07rem { font-size: 0.7rem ; }
+.fs-08rem { font-size: 0.8rem ; }
+.fs-09rem { font-size: 0.9rem ; }
+
+.fs-10rem { font-size: 1.0rem ; }
+.fs-11rem { font-size: 1.1rem ; }
+.fs-12rem { font-size: 1.2rem ; }
+.fs-13rem { font-size: 1.3rem ; }
+.fs-14rem { font-size: 1.4rem ; }
+.fs-15rem { font-size: 1.5rem ; }
+.fs-16rem { font-size: 1.6rem ; }
+.fs-17rem { font-size: 1.7rem ; }
+.fs-18rem { font-size: 1.8rem ; }
+.fs-19rem { font-size: 1.9rem ; }
+
+.fs-20rem { font-size: 2.0rem ; }
+.fs-21rem { font-size: 2.1rem ; }
+.fs-22rem { font-size: 2.2rem ; }
+.fs-23rem { font-size: 2.3rem ; }
+.fs-24rem { font-size: 2.4rem ; }
+.fs-25rem { font-size: 2.5rem ; }
+.fs-26rem { font-size: 2.6rem ; }
+.fs-27rem { font-size: 2.7rem ; }
+.fs-28rem { font-size: 2.8rem ; }
+.fs-29rem { font-size: 2.9rem ; }
+
+.fs-30rem { font-size: 3.0rem ; }
+.fs-31rem { font-size: 3.1rem ; }
+.fs-32rem { font-size: 3.2rem ; }
+.fs-33rem { font-size: 3.3rem ; }
+.fs-34rem { font-size: 3.4rem ; }
+.fs-35rem { font-size: 3.5rem ; }
+.fs-36rem { font-size: 3.6rem ; }
+.fs-37rem { font-size: 3.7rem ; }
+.fs-38rem { font-size: 3.8rem ; }
+.fs-39rem { font-size: 3.9rem ; }
+
+.fs-40rem { font-size: 4.0rem ; }
+
+
+
+/*  */
+
+/* End */

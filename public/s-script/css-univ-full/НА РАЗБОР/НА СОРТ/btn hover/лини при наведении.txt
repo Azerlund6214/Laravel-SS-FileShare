@@ -1,0 +1,36 @@
+
+<li>
+	<a href="about.html">
+		::before
+		About Us
+		::after
+	</a>
+</li>
+
+
+в начале КЛАСС
+li a::before {
+    content: "";
+    width: 0px;
+    height: 3px;
+    background-color: #25d06f;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    -webkit-transition: .5s;
+    transition: .5s;
+}
+
+li a::after {
+    content: "";
+    width: 0px;
+    height: 3px;
+    background-color: #25d06f;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    -webkit-transition: .5s;
+    transition: .5s;
+}
+
+123

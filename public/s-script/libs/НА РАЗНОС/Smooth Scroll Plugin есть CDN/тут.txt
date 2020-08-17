@@ -1,0 +1,20 @@
+
+Плавная прокрутка при нажатии на ссылки
+
+
+офф https://github.com/kswedberg/jquery-smooth-scroll#smooth-scroll-plugin
+демка https://kswedberg.github.io/jquery-smooth-scroll/demo/
+
+
+
+
+CDN https://cdnjs.com/libraries/jquery-smooth-scroll
+Оттуда  https://cdnjs.cloudflare.com/ajax/libs/jquery-smooth-scroll/2.2.0/jquery.smooth-scroll.min.js
+
+хз почему, не робит   видать надо еще явно активировать в боди
+"<script src=\"https://cdnjs.cloudflare.com/ajax/libs/jquery-smooth-scroll/2.2.0/jquery.smooth-scroll.min.js\" type=\"text/javascript\"> </script>",
+						"<script src=\"https://cdnjs.cloudflare.com/ajax/libs/jquery-smooth-scroll/1.6.0/jquery.smooth-scroll.min.js\" type=\"text/javascript\"> </script>",
+						
+
+
+123

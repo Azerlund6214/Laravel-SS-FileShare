@@ -1,0 +1,65 @@
+
+.fal.fa-cog:before {
+	content: '\0041'
+}
+.fal.fa-comment-alt:before {
+	content: '\0042'
+}
+.far.fa-clock:before {
+	content: '\0043'
+}
+.far.fa-envelope-DISABLE:before {
+	content: '\0044'
+}
+.fa.fa-search-DISABLE:before {
+	content: '\0045'
+}
+.fa.fa-phone-DISABLE:before {
+	content: '\0046'
+}
+.fal.fa-play-circle:before {
+	content: '\0047'
+}
+.fa.fa-share-alt:before {
+	content: '\0048'
+}
+.fa.fa-shopping-basket-DISABLE:before {
+	content: '\0049'
+}
+.fal.fa-shopping-cart:before {
+	content: '\004a'
+}
+.fas.fa-sign-in-alt-DISABLE:before {
+	content: '\004b'
+}
+.fas.fa-star-DISABLE:before {
+	content: '\004c'
+}
+.fas.fa-exchange-alt-DISABLE:before {
+	content: '\004d'
+}
+.fas.fa-arrow-down:before {
+	content: '\004e'
+}
+.fas.fa-arrow-up:before {
+	content: '\004f'
+}
+.fa.fa-angle-left-DISABLE:before {
+	content: '\0050'
+}
+.fa.fa-angle-right-DISABLE:before {
+	content: '\0051'
+}
+.fal.fa-arrow-left:before {
+	content: '\0052'
+}
+.fal.fa-arrow-right:before {
+	content: '\0053'
+}
+.fa.fa-plus:before {
+	content: '\0054'
+}
+
+
+
+123

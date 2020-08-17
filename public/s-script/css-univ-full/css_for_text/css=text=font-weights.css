@@ -1,0 +1,33 @@
+﻿
+/*  */
+
+/* http://htmlbook.ru/css/font-weight */
+
+/* Разная толщина шрифта */
+.bold { font-weight: bold; }
+.bolder { font-weight: bolder; }
+
+.fw-100 { font-weight: 100; }
+.fw-200 { font-weight: 200; }
+.fw-300 { font-weight: 300; }
+.fw-400 { font-weight: 400; } /* Дефолт */
+.fw-500 { font-weight: 500; }
+.fw-600 { font-weight: 600; }
+.fw-700 { font-weight: 700; } /* Bold */
+.fw-800 { font-weight: 800; }
+.fw-900 { font-weight: 900; }
+
+
+/* Можно прописать в классы выше через запятую */
+.fw-thin           { font-weight: 100; }
+.fw-ultralight { font-weight: 200; }
+.fw-light         { font-weight: 300; }
+.fw-regular     { font-weight: 400; } /* Дефолт */
+.fw-medium       { font-weight: 500; }
+.fw-semibold   { font-weight: 600; }
+.fw-bold          { font-weight: 700; } /* Bold */
+.fw-extrabold { font-weight: 800; }
+.fw-black        { font-weight: 900; }
+
+
+/* End */

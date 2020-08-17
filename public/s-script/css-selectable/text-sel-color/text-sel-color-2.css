@@ -1,0 +1,22 @@
+
+/* Text selection color */
+/* Цвета выделения текста */
+
+/* Bg color   = Желтый */
+/* Text color = Красный */
+
+::selection  , .selected-text
+{
+    background: #ff0000 ;
+	color:      #fcff00 ;
+    text-shadow: none;
+}
+
+::-moz-selection 
+{
+    background: #ff0000 ;
+	color:      #fcff00 ;
+    text-shadow: none;
+}
+
+/* End */

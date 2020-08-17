@@ -1,0 +1,13 @@
+
+Это самый актуальный список значений
+
+
+
+		"text-sel-color" => 0 1 2
+		"scrollbar"      => 0 1 2 ftc
+		"body-bg-color"  => 0 1 2 3
+		"link-a-color"   => 0 1
+		"brk-colors"     => ftc(дефолт)
+
+
+123

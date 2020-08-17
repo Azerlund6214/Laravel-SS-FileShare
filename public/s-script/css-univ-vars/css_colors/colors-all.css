@@ -1,0 +1,167 @@
+
+/*
+Таблица ВСЕХ хтмл цветов https://colorscheme.ru/html-colors.html
+
+*/
+
+/*
+ДОБАВИТЬ ВЕЗДЕ .color-00  .dark-00  (Без БГ)  (color: ... )
+*/
+
+	/* ЦВЕТА ДЛЯ ФУТЕРА И ТД */
+
+.bg-dark-01 { background: #161a1d ; }
+.bg-dark-02 { background: #1c2124 ; }
+.bg-dark-03 { background: #242526 ; }
+.bg-dark-04 { background: #2e3138 ; }
+.bg-dark-05 { background: #363636 ; }
+.bg-dark-06 { background: #343e47 ; }
+.bg-dark-07 { background: #333    ; } /* 3 раза */
+.bg-dark-08 { background: #485052 ; }
+.bg-dark-09 { background: #A5A9AB ; }
+.bg-dark-10 { background: #243238 ; }
+.bg-dark-11 { background: #161d27 ; }
+.bg-dark-12 { background: #282828 ; }
+.bg-dark-13 { background: #eff3f3 ; }
+.bg-dark-14 { background: #1d2b34 ; }
+.bg-dark-15 { background: #262626 ; } /* Сайт сбера */
+.bg-dark-16 { background: #151a23 ; }
+.bg-dark-17 { background: #08192b ; }
+.bg-dark-18 { background: #1d262d ; }
+.bg-dark-19 { background: #333361 ; } /* Топовый для цветов аля firefox */
+.bg-dark-20 { background: #0d0d1b ; }
+.bg-dark-21 { background: #22212e ; }
+.bg-dark-22 { background: #373737 ; }
+.bg-dark-23 { background: #2e2e2e ; }
+.bg-dark-24 { background: #adb5bd ; }
+.bg-dark-25 { background: #212529 ; }
+.bg-dark-26 { background: #222 ; }
+.bg-dark-27 { background: #111 ; }
+.bg-dark-28 { background: #151b26 ; }
+.bg-dark-29 { background: #2a2d3b ; }
+/* До сюда нет повторов */
+
+/*
+
+.bg-dark-30 { background: # ; }
+.bg-dark-31 { background: # ; }
+.bg-dark-32 { background: # ; }
+.bg-dark-33 { background: # ; }
+.bg-dark-34 { background: # ; }
+.bg-dark-35 { background: # ; }
+.bg-dark-36 { background: # ; }
+.bg-dark-37 { background: # ; }
+.bg-dark-38 { background: # ; }
+.bg-dark-39 { background: # ; }
+
+.bg-dark-40 { background: # ; }
+.bg-dark-41 { background: # ; }
+.bg-dark-42 { background: # ; }
+.bg-dark-43 { background: # ; }
+.bg-dark-44 { background: # ; }
+.bg-dark-45 { background: # ; }
+.bg-dark-46 { background: # ; }
+.bg-dark-47 { background: # ; }
+.bg-dark-48 { background: # ; }
+.bg-dark-49 { background: # ; }
+
+*/
+
+
+		/* ПРОСТО ЦВЕТА */
+
+.bg-color-01 { background: #65cd54 ; }
+.bg-color-02 { background: #f76f3e ; }
+.bg-color-03 { background: #ff9a1d ; }
+.bg-color-04 { background: #33d8bf ; }
+.bg-color-05 { background: #f5d546 ; }
+.bg-color-06 { background: #88695d ; }
+.bg-color-07 { background: #214283 ; }
+.bg-color-08 { background: #4d3bfe ; }
+.bg-color-09 { background: #1273eb ; }
+
+.bg-color-10 { background: #2bc48a ; }
+.bg-color-11 { background: #69e781 ; }
+.bg-color-12 { background: #5c7cfa ; }
+.bg-color-13 { background: #ff922b ; }
+.bg-color-14 { background: #4caf50 ; }
+.bg-color-15 { background: #bfbfbf ; }
+.bg-color-16 { background: #9f9f9f ; }
+.bg-color-17 { background: #868686 ; }
+.bg-color-18 { background: #b6c9ff ; }
+.bg-color-19 { background: #aabcf1 ; }
+
+.bg-color-20 { background: #d2d5fe ; }
+.bg-color-21 { background: #63d13e ; }
+.bg-color-22 { background: #f33    ; }
+.bg-color-23 { background: #0ab14b ; }
+.bg-color-24 { background: #ee7933 ; }
+.bg-color-25 { background: #69e781 ; }
+.bg-color-26 { background: #1dc58d ; }
+.bg-color-27 { background: #3D5AFE ; }
+.bg-color-28 { background: #f81f1f ; }
+.bg-color-29 { background: #f55e25 ; }
+
+.bg-color-30 { background: #6039aa ; }
+.bg-color-31 { background: #00c180 ; }
+.bg-color-32 { background: #00cc00 ; } /* Википедия - зеленая стрелка вверх (прирост) */
+.bg-color-33 { background: #3366cc ; } /* Википедия - лента для заметок */
+.bg-color-34 { background: #0645ad ; } /* Википедия - шрифт навигации */
+
+/*
+
+.bg-color-35 { background: # ; }  
+.bg-color-36 { background: # ; }
+.bg-color-37 { background: # ; }
+.bg-color-38 { background: # ; }
+.bg-color-39 { background: # ; }
+
+.bg-color-40 { background: # ; }
+.bg-color-41 { background: # ; }
+.bg-color-42 { background: # ; }
+.bg-color-43 { background: # ; }
+.bg-color-44 { background: # ; }
+.bg-color-45 { background: # ; }
+.bg-color-46 { background: # ; }
+.bg-color-47 { background: # ; }
+.bg-color-48 { background: # ; }
+.bg-color-49 { background: # ; }
+
+*/
+
+
+
+.bg-color-ms-1 { background: #217346 ; } /* ОФФ Цвет Excel */
+.bg-color-ms-2 { background: #0078d4 ; } /* ОФФ Цвет Outlook */
+.bg-color-ms-3 { background: #7719AA ; } /* ОФФ Цвет OneNote */
+.bg-color-ms-4 { background: #B7472A ; } /* ОФФ Цвет PowerPoint */
+.bg-color-ms-5 { background: #2B579A ; } /* ОФФ Цвет Word */
+
+.bg-color-bus { background: #FFD800 ; } /* ОФФ "Желтый школьный автобус" */
+.bg-color-tennis { background: #CCFF00 ; } /* ОФФ Цвет мяча для тенниса (Fluorescent yellow) */
+
+
+
+.bg-color-country-chn-1 { background: #de2910 ; } /* Флаг Китая - красный */
+.bg-color-country-chn-2 { background: #ffde00 ; } /* Флаг Китая - желтый */
+.bg-color-country-jp-1 { background: #be0029 ; } /* Флаг Японии - красный */
+.bg-color-country-canada-1 { background: #db2516 ; } /* Флаг Канады */
+.bg-color-country-usa-1 { background: #3c3b6e ; } /* Флаг США - Синий */
+.bg-color-country-usa-2 { background: #b22234 ; } /* Флаг США - Красный */
+
+
+.bg-color-country-uk-1 { background: #001c69 ; } /* Флаг Британии - Синий */
+.bg-color-country-uk-2 { background: #c9072a ; } /* Флаг Британии - Красный */
+
+.bg-color-country-oon-1 { background: #3f90df ; } /* Флаг ООН */
+
+
+.bg-color-country--1 { background: # ; } /* Флаг  -  */
+
+
+
+
+
+
+
+/* End */

@@ -1,0 +1,22 @@
+
+@font-face
+{
+	font-family: "000000000000";
+	
+    src: local('?'), /* Всегда грузит только с сайта */
+        url("font.woff")   format("woff"),   /* все современные браузеры, IE9+ */
+		url("font.woff2") format("woff2"),
+        url("font.otf")   format("opentype"),
+		url("font.ttf")   format("truetype");   /* все современные браузеры */
+		
+	/*
+
+	/* ТОЛЬКО IE8+, знак ? позволяет обойти баг в обработчике значения src 	// /
+	src: url("font.eot?iefix") format('embedded-opentype');
+	
+	font-weight: normal;
+	font-style: normal;
+		
+	*/
+	
+}

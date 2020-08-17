@@ -1,0 +1,63 @@
+﻿	
+	
+	RU/ENG - 2 языка
+	ru/ENG - 2 языка, но РУ дефолтный
+	ENG - 1 языка, другой не работает или кракозябры
+	
+	Везде допустимы пробелы по бокам (есть trim)
+	
+
+	CDN-GF# NOSTYLE ...что угодно  = НЕ генерировать стили, только скачать шрифты с гугла
+
+	===============================================
+	КЛЮЧ # Имя папки
+	Имя класса: font-ИмяПАПКИ БЕЗ 1 части
+	
+	"EXTRA#anime-abyss",     # ru/ENG # TTF WOFF WOFF2 (Кривой знак =)(все капсом)
+	
+	"EXTRA#game-minecraft",  # RU/ENG # TTF
+	"EXTRA#game-nfs-carbon", # RU/ENG # OTF
+	"EXTRA#game-sega",       # RU/ENG # OTF (Только буквы, нет цифр и знаков)
+	"EXTRA#game-stalker",    # RU/ENG # TTF
+	"EXTRA#game-gta-3",      # RU/ENG # TTF
+	"EXTRA#game-gta-5",      # RU/ENG # TTF WOFF
+	"EXTRA#game-gta-sa",     # ru/ENG # TTF
+	"EXTRA#game-gta-vc",     # ru/ENG # TTF
+	
+	"EXTRA#film-matrix",     #  ENG   # TTF
+	"EXTRA#film-x-files",    #  ENG   # TTF
+	
+	"EXTRA#lcd-digital-ds",  #  ENG   # TTF
+	"EXTRA#lcd-digital-cg",  # RU/ENG # TTF (Самый топ из LCd)
+
+	"EXTRA#misc-airfool",    # RU/ENG # OTF (Все капсом)
+	"EXTRA#misc-cola-coca",  # RU/ENG # OTF
+	"EXTRA#misc-cola-pepsi", # RU/ENG # OTF (Все капсом)
+	"EXTRA#misc-lego",       #  ENG   # TTF (Все капсом)
+	"EXTRA#misc-news-pravda",# RU/ENG # OTF (Все капсом)
+	
+	===============================================
+	
+	# Везде только TTF
+	# Это РЕЗЕРВ, если отрубят инет
+	
+	КЛЮЧ # имя класса(font-???) # Имя папки
+	
+	"LOCAL # 123 # Gill Sans Nova Shadowed Outline",   # 400 700
+	
+	===============================================
+	
+	Вместо пробела ставить +
+	КЛЮЧ # имя класса(font-???) # Имя шрифта GF # Weight # subset # serif
+	
+	"CDN-GF# main #Roboto      #400,700#cyrillic#sans-serif",
+	"CDN-GF#   1  #Open+Sans   #400,700#cyrillic#sans-serif",
+	"CDN-GF#   2  #Montserrat  #400,700#cyrillic#sans-serif",
+	"CDN-GF#   3  #Merriweather#400,700#cyrillic#serif",
+	
+	"CDN-GF#   4  #Caveat      #400,700#cyrillic#serif",   # Красивые прописные буквы
+
+
+
+
+123

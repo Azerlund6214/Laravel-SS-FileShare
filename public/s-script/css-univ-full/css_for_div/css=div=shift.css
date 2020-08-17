@@ -1,0 +1,62 @@
+
+/*  */
+
+/* shift-[up/down/left/right]-[10+10...100] */
+
+/* ������������ �������� ������ 1 �����, ���� ���� ������,
+   �� ������ ��������� div � ������� �������� */
+
+/* Up */
+.shift-up-10   { transform: translate(0%,  -10%); }
+.shift-up-20   { transform: translate(0%,  -20%); }
+.shift-up-30   { transform: translate(0%,  -30%); }
+.shift-up-40   { transform: translate(0%,  -40%); }
+.shift-up-50   { transform: translate(0%,  -50%); }
+.shift-up-60   { transform: translate(0%,  -60%); }
+.shift-up-70   { transform: translate(0%,  -70%); }
+.shift-up-80   { transform: translate(0%,  -80%); }
+.shift-up-90   { transform: translate(0%,  -90%); }
+.shift-up-100 { transform: translate(0%, -100%); }
+
+/* Down */
+.shift-down-10   { transform: translate(0%,  10%); }
+.shift-down-20   { transform: translate(0%,  20%); }
+.shift-down-30   { transform: translate(0%,  30%); }
+.shift-down-40   { transform: translate(0%,  40%); }
+.shift-down-50   { transform: translate(0%,  50%); }
+.shift-down-60   { transform: translate(0%,  60%); }
+.shift-down-70   { transform: translate(0%,  70%); }
+.shift-down-80   { transform: translate(0%,  80%); }
+.shift-down-90   { transform: translate(0%,  90%); }
+.shift-down-100  { transform: translate(0%, 100%); }
+
+
+/* Left */
+.shift-left-10   { transform: translate( -10%, 0%); }
+.shift-left-20   { transform: translate( -20%, 0%); }
+.shift-left-30   { transform: translate( -30%, 0%); }
+.shift-left-40   { transform: translate( -40%, 0%); }
+.shift-left-50   { transform: translate( -50%, 0%); }
+.shift-left-60   { transform: translate( -60%, 0%); }
+.shift-left-70   { transform: translate( -70%, 0%); }
+.shift-left-80   { transform: translate( -80%, 0%); }
+.shift-left-90   { transform: translate( -90%, 0%); }
+.shift-left-100 { transform: translate(-100%, 0%); }
+
+/* Right */
+.shift-right-10   { transform: translate( 10%, 0%); }
+.shift-right-20   { transform: translate( 20%, 0%); }
+.shift-right-30   { transform: translate( 30%, 0%); }
+.shift-right-40   { transform: translate( 40%, 0%); }
+.shift-right-50   { transform: translate( 50%, 0%); }
+.shift-right-60   { transform: translate( 60%, 0%); }
+.shift-right-70   { transform: translate( 70%, 0%); }
+.shift-right-80   { transform: translate( 80%, 0%); }
+.shift-right-90   { transform: translate( 90%, 0%); }
+.shift-right-100 { transform: translate(100%, 0%); }
+
+
+
+
+
+/* End */

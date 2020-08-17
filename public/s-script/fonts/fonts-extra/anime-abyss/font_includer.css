@@ -1,0 +1,16 @@
+
+.font-abyss { font-family: 'MIA' ; }
+
+@font-face
+{
+	font-family: "MIA";
+	
+    src: local('?'), /* Всегда грузит только с сайта */
+		url("font.woff")  format("woff"),   /* все современные браузеры, IE9+ */
+		url("font.woff2") format("woff2"),
+		url("font.ttf")   format("truetype");   /* все современные браузеры */
+		
+	font-weight: normal;
+	font-style: normal;
+	
+}

@@ -1,0 +1,39 @@
+
+var a;
+a = document.getElementById("charging");
+
+setTimeout( function () { ЧТО }, 1000);    отложенный запуск
+
+setInterval( chargebattery(это имя функции без скобок)  , 5000);
+
+
+a.innerHTML = "123";
+
+
+<script>
+window.onscroll = function() {myFunction()};
+
+var navbar = document.getElementById("navbar");
+var sticky = navbar.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
+</script>
+
+
+
+<script>
+jQuery(document).on('click', '.mega-dropdown', function(e) {
+ e.stopPropagation()
+});
+</script>
+
+
+
+
+213

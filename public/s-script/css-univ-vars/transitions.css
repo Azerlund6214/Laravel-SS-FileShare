@@ -1,0 +1,55 @@
+
+/*  */
+
+/* ПРОСТЫЕ переходы */
+/* Для всех сторон сразу(all), БЕЗ задержки */
+
+/*	 
+-webkit-transition: all 500ms ease;
+   -moz-transition: all 500ms ease;
+	-ms-transition: all 500ms ease;
+	 -o-transition: all 500ms ease;
+		transition: all 500ms ease;
+http://htmlbook.ru/css/transition
+https://developer.mozilla.org/ru/docs/Web/CSS/transition
+*/
+
+/*
+03=.3s
+3=3s
+
+e=ease
+eo=ease-out
+ei=ease-in
+eio=ease-in-out
+l=linear
+*/
+
+.transit-03-e { transition: all .3s  ease; -webkit-transition: all .3s  ease; }
+.transit-06-e { transition: all .6s  ease; -webkit-transition: all .6s  ease; }
+.transit-1-e {  transition: all  1s  ease; -webkit-transition: all  1s  ease; }
+
+.transit-03-eo { transition: all .3s  ease-out; -webkit-transition: all .3s  ease-out; }
+.transit-06-eo { transition: all .6s  ease-out; -webkit-transition: all .6s  ease-out; }
+.transit-1-eo {  transition: all  1s  ease-out; -webkit-transition: all  1s  ease-out; }
+
+.transit-03-ei { transition: all .3s  ease-in; -webkit-transition: all .3s  ease-in; }
+.transit-06-ei { transition: all .6s  ease-in; -webkit-transition: all .6s  ease-in; }
+.transit-1-ei {  transition: all  1s  ease-in; -webkit-transition: all  1s  ease-in; }
+
+.transit-03-eio { transition: all .3s  ease-in-out; -webkit-transition: all .3s  ease-in-out; }
+.transit-06-eio { transition: all .6s  ease-in-out; -webkit-transition: all .6s  ease-in-out; }
+.transit-1-eio {  transition: all  1s  ease-in-out; -webkit-transition: all  1s  ease-in-out; }
+
+.transit-03-l { transition: all .3s  linear; -webkit-transition: all .3s  linear; }
+.transit-06-l { transition: all .6s  linear; -webkit-transition: all .6s  linear; }
+.transit-1-l {  transition: all  1s  linear; -webkit-transition: all  1s  linear; }
+
+
+
+
+
+
+
+
+/* End */

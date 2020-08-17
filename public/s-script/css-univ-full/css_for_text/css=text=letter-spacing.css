@@ -1,0 +1,28 @@
+
+/*  */
+
+/*  */
+
+
+
+.ls--1   { letter-spacing: -.01em }
+.ls--20  { letter-spacing: -.02em }
+.ls--40  { letter-spacing: -.04em }
+.ls--100 { letter-spacing: -.1em  } /* было -1px */
+
+.ls-0   { letter-spacing: 0 }
+
+.ls-10   { letter-spacing: .01em }
+.ls-20  { letter-spacing: .02em }
+.ls-30  { letter-spacing: .03em }
+.ls-40  { letter-spacing: .04em }
+.ls-60  { letter-spacing: .06em }
+.ls-80  { letter-spacing: .08em }
+.ls-100 { letter-spacing: .1em  }
+.ls-200 { letter-spacing: .2em  }
+.ls-300 { letter-spacing: .3em  }
+
+
+
+
+/* End */

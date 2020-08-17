@@ -1,0 +1,18 @@
+
+.font-gta-3 { font-family: 'Pricedown' ; }
+
+@font-face
+{
+	font-family: "Pricedown";
+	
+    src: local('?'), /* Всегда грузит только с сайта */
+		url("font.ttf")   format("truetype");   /* все современные браузеры */
+		
+	/*
+
+	*/
+	
+	font-weight: normal;
+	font-style: normal;
+	
+}

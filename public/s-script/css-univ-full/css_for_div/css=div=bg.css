@@ -1,0 +1,37 @@
+
+/*  */
+
+/*  */
+
+
+/* Базовый унив класс для всех бг */
+.bg-basic
+{
+background-repeat: no-repeat ;
+background-size: cover ;
+}
+
+.bg-norepeat { background-repeat: no-repeat }
+.bg-repeat { background-repeat: repeat }
+
+.bg-size-cover { background-size: cover } /* Либо левая, либо верхняя часть картинки всегда видна на 100% своей длины */
+/* Дописать остальные */
+
+
+.bg-att-fixed { background-attachment: fixed } /* ТОГДА БУДЕТ аля ПАРАЛЛАКС */
+/* Дописать остальные */
+
+
+/* ДОДУМАТЬ */
+.bg-pos_top-left { background-position: left top }
+.bg-pos_top-center { background-position: center top }
+.bg-pos_top-right { background-position: right top }
+.bg-pos_bottom-left { background-position: left bottom }
+.bg-pos_bottom-center { background-position: center bottom }
+.bg-pos_bottom-right { background-position: right bottom }
+.bg-pos_left-center { background-position: left center }
+.bg-pos_right-center { background-position: right center }
+.bg-pos_center { background-position: center center }
+
+
+/* End */

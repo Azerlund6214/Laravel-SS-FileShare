@@ -1,0 +1,42 @@
+
+
+
+
+палитра цветов  https://www.w3schools.com/colors/colors_picker.asp
+таблица соответстви€ шрифтов https://www.kobzarev.com/browser/css-font-size-conversion-chart/
+
+
+
+их слайдер  найти название в коде   https://ftc.vin/css/settings.css?v=1
+
+
+.btn:hover {
+  transition: 1.3s;   /* ”Ѕ–ј“№ ¬ обычний класс этой  Ќќѕ », оначе при отводе будет –≈« ќ возвращать положение (Ћ»Ѕќ и там и там) */
+  background-color: #3e8e41;
+  color: white;
+}
+
+
+¬јЋ»ƒј÷»я
+!!!! чекнуть пример хедера 3.html  там через Ѕ4 автовалидаци€ с попапом и без JS
+
+”Ћ№“–ј    ”„ј полей с примерами валидаций http://bootstraptema.ru/_sf/26/2649.html
+!!! сам скрипт валидации  хз как подключать https://pixinvent.com/apex-angular-4-bootstrap-admin-template/html-demo-1/app-assets/vendors/js/jqBootstrapValidation.js
+найти в инете гайды (оч хорошо гуглитс€)  jqbootstrapvalidation 
+http://bootstraptema.ru/stuff/plugins_bootstrap/improvement/jqbootstrapvalidation/12-1-0-58
+¬«я“№ «ј ЎјЅЋќЌ: ‘”ЋЋ код дл€ html JS(ajax) и PHP  https://toster.ru/q/330524
+
+
+ультра кнопка отправки https://codepen.io/auginator/pen/oElzF
+
+
+http://htmlbook.ru/css/display
+
+юзать параметр  border-image  и закинуть в него градиент
+
+
+
+
+
+
+123

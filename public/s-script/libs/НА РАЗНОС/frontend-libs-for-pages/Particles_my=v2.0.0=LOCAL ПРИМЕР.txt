@@ -1,0 +1,21 @@
+
+писать в тег скрипт    который внутри тега который надо сделать канвасом
+
+ѕ»—ј“№ Ё“ќ: (иначе она будет еще не объ€влена (подключаетс€ только внизу боди))
+
+$( document ).ready( function()	{ particles_univ_starter( "sec_br5" , "particlesjs-config-2" );  } );
+
++ ≈ў≈
+
+в скрипт внизу шаблона:
+/* ≈ще надо добавить скрипт - $SS_Class->Add_libs_for_include( array( "Particles" ) ); */
+
+
+
+
+
+particles_univ_starter( "particles_test" , "particlesjs-config-2" );
+particles_univ_starter( );
+
+
+123

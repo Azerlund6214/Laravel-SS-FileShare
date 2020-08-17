@@ -1,0 +1,18 @@
+
+.font-sega { font-family: 'Sega Studio' ; }
+
+@font-face
+{
+	font-family: "Sega Studio";
+	
+    src: local('?'), /* Всегда грузит только с сайта */
+        url("font.otf")   format("opentype");
+		
+	/*
+
+	*/
+	
+	font-weight: normal;
+	font-style: normal;
+	
+}

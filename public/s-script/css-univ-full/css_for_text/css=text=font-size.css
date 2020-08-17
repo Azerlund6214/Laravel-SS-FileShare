@@ -1,0 +1,124 @@
+
+/*  */
+
+/*
+https://learn.javascript.ru/css-units
+px Ц абсолютные пиксели, к которым прив€заны и потому не нужны mm, cm, pt и pc. »спользуетс€ дл€ максимально конкретного и точного задани€ размеров.
+em Ц задаЄт размер относительно шрифта родител€, можно относительно конкретных символов: "x"(ex) и "0"(ch), используетс€ там, где нужно упростить масштабирование компоненты.
+rem Ц задаЄт размер относительно шрифта <html>, используетс€ дл€ удобства глобального масштабировани€: элементы которые планируетс€ масштабировать, задаютс€ в rem, а JS мен€ет шрифт у <html>.
+% Ц относительно такого же свойства родител€ (как правило, но не всегда), используетс€ дл€ ширин, высот и так далее, без него никуда, но надо знать, относительно чего он считает проценты.
+vw, vh, vmin, vmax Ц относительно размера экрана.
+*/
+
+/* http://htmlbook.ru/css/font-size */
+
+
+/*  5+1...100 */
+/*  ¬з€то с сайта о битриксе */
+/*  –азмеры в имени класса заданы в пиксел€х */
+/*  ƒл€ красоты можно дописать везде недостающие нули */
+
+.fs-base { font-size: 1rem }
+
+.fs-5  { font-size: .3125rem }
+.fs-6  { font-size: .375rem  }
+.fs-7  { font-size: .4375rem }
+.fs-8  { font-size: .5rem    }
+.fs-9  { font-size: .5625rem }
+
+.fs-10 { font-size: .625rem   }
+.fs-11 { font-size: .6875rem  }
+.fs-12 { font-size: .75rem    }
+.fs-13 { font-size: .8125rem  }
+.fs-14 { font-size: .875rem   }
+.fs-15 { font-size: .9375rem  }
+.fs-16 { font-size: 1rem      }
+.fs-17 { font-size: 1.0625rem }
+.fs-18 { font-size: 1.125rem  }
+.fs-19 { font-size: 1.1875rem }
+.fs-20 { font-size: 1.25rem   }
+.fs-21 { font-size: 1.3125rem }
+.fs-22 { font-size: 1.375rem  }
+.fs-23 { font-size: 1.4375rem }
+.fs-24 { font-size: 1.5rem    }
+.fs-25 { font-size: 1.5625rem }
+.fs-26 { font-size: 1.625rem  }
+.fs-27 { font-size: 1.6875rem }
+.fs-28 { font-size: 1.75rem   }
+.fs-29 { font-size: 1.8125rem }
+.fs-30 { font-size: 1.875rem  }
+.fs-31 { font-size: 1.9375rem }
+.fs-32 { font-size: 2rem      }
+.fs-33 { font-size: 2.0625rem }
+.fs-34 { font-size: 2.125rem  }
+.fs-35 { font-size: 2.1875rem }
+.fs-36 { font-size: 2.25rem   }
+.fs-37 { font-size: 2.3125rem }
+.fs-38 { font-size: 2.375rem  }
+.fs-39 { font-size: 2.4375rem }
+.fs-40 { font-size: 2.5rem    }
+.fs-41 { font-size: 2.5625rem }
+.fs-42 { font-size: 2.625rem  }
+.fs-43 { font-size: 2.6875rem }
+.fs-44 { font-size: 2.75rem   }
+.fs-45 { font-size: 2.8125rem }
+.fs-46 { font-size: 2.875rem  }
+.fs-47 { font-size: 2.9375rem }
+.fs-48 { font-size: 3rem      }
+.fs-49 { font-size: 3.0625rem }
+.fs-50 { font-size: 3.125rem  }
+.fs-51 { font-size: 3.1875rem }
+.fs-52 { font-size: 3.25rem   }
+.fs-53 { font-size: 3.3125rem }
+.fs-54 { font-size: 3.375rem  }
+.fs-55 { font-size: 3.4375rem }
+.fs-56 { font-size: 3.5rem    }
+.fs-57 { font-size: 3.5625rem }
+.fs-58 { font-size: 3.625rem  }
+.fs-59 { font-size: 3.6875rem }
+.fs-60 { font-size: 3.75rem   }
+.fs-61 { font-size: 3.8125rem }
+.fs-62 { font-size: 3.875rem  }
+.fs-63 { font-size: 3.9375rem }
+.fs-64 { font-size: 4rem      }
+.fs-65 { font-size: 4.0625rem }
+.fs-66 { font-size: 4.125rem  }
+.fs-67 { font-size: 4.1875rem }
+.fs-68 { font-size: 4.25rem   }
+.fs-69 { font-size: 4.3125rem }
+.fs-70 { font-size: 4.375rem  }
+.fs-71 { font-size: 4.4375rem }
+.fs-72 { font-size: 4.5rem    }
+.fs-73 { font-size: 4.5625rem }
+.fs-74 { font-size: 4.625rem  }
+.fs-75 { font-size: 4.6875rem }
+.fs-76 { font-size: 4.75rem   }
+.fs-77 { font-size: 4.8125rem }
+.fs-78 { font-size: 4.875rem  }
+.fs-79 { font-size: 4.9375rem }
+.fs-80 { font-size: 5rem      }
+.fs-81 { font-size: 5.0625rem }
+.fs-82 { font-size: 5.125rem  }
+.fs-83 { font-size: 5.1875rem }
+.fs-84 { font-size: 5.25rem   }
+.fs-85 { font-size: 5.3125rem }
+.fs-86 { font-size: 5.375rem  }
+.fs-87 { font-size: 5.4375rem }
+.fs-88 { font-size: 5.5rem    }
+.fs-89 { font-size: 5.5625rem }
+.fs-90 { font-size: 5.625rem  }
+.fs-91 { font-size: 5.6875rem }
+.fs-92 { font-size: 5.75rem   }
+.fs-93 { font-size: 5.8125rem }
+.fs-94 { font-size: 5.875rem  }
+.fs-95 { font-size: 5.9375rem }
+.fs-96 { font-size: 6rem      }
+.fs-97 { font-size: 6.0625rem }
+.fs-98 { font-size: 6.125rem  }
+.fs-99 { font-size: 6.1875rem }
+
+.fs-100 { font-size: 6.25rem }
+
+
+
+/* End */

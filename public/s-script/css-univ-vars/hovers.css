@@ -1,0 +1,28 @@
+
+/*  */
+
+/* Тут ПРОСТЫЕ ховеры */
+
+/*
+text-decoration: none;
+про границы
+
+-webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+*/
+
+.hover-scale-05:hover { transform: scale(0.5); -webkit-transform: scale(0.5); }
+.hover-scale-06:hover { transform: scale(0.6); -webkit-transform: scale(0.6); }
+.hover-scale-07:hover { transform: scale(0.7); -webkit-transform: scale(0.7); }
+.hover-scale-08:hover { transform: scale(0.8); -webkit-transform: scale(0.8); }
+.hover-scale-09:hover { transform: scale(0.9); -webkit-transform: scale(0.9); }
+
+.hover-scale-11:hover { transform: scale(1.1); -webkit-transform: scale(1.1); }
+.hover-scale-12:hover { transform: scale(1.2); -webkit-transform: scale(1.2); }
+.hover-scale-13:hover { transform: scale(1.3); -webkit-transform: scale(1.3); }
+.hover-scale-14:hover { transform: scale(1.4); -webkit-transform: scale(1.4); }
+.hover-scale-15:hover { transform: scale(1.5); -webkit-transform: scale(1.5); }
+
+
+
+/* End */

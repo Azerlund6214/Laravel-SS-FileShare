@@ -1,0 +1,28 @@
+
+
+
+<li>
+	<a href="#">
+		::before
+		Spanish
+	</a>
+</li>
+
+
+
+li a::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 0%;
+    background: #25d06f;
+    z-index: -1;
+    -webkit-transition: .5s;
+    transition: .5s;
+}
+
+
+
+123

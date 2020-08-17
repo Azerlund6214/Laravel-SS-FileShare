@@ -1,0 +1,19 @@
+
+/* URL color ( A - tag )*/
+/* Цвета ССЫЛОК ( <a>dAb</a>) */
+
+/* 
+	Link    = Не посещенная
+	Visited = Посещенная
+	Hover   = При наведении
+	Active  = При нажатии
+ */
+
+a:link       { color: #2020A0 ; } /* Темн-Синий */
+a:visited { color: #8080A0 ; } /* Серый */
+a:hover     { color: #00ffd2 ; } /* Бирюзовый */
+a:active   { color: #FF4030 ; } /* Красный */
+
+a { 	text-decoration: none;  } /* Откл подчеркивание ссылок */
+
+/* End */

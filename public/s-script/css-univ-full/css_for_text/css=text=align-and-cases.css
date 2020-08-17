@@ -1,0 +1,39 @@
+
+
+/* Left Ц выравнивание по левому краю (по умолчанию) */
+.t-left {
+  text-align: left;
+}
+
+/* Right Ц выравнивание по правому краю */
+.t-right {
+  text-align: right;
+}
+
+/* Center Ц выравнивание по центру */
+.t-centered {
+  text-align: center;
+}
+
+/* Justify Ц выравнивание по ширине страницы */
+.t-justify {
+  text-align: Justify;
+}
+
+
+
+
+
+
+/* */
+.t-lower {
+  text-transform: lowercase;
+}
+
+/* */
+.t-upper {
+  text-transform: uppercase;
+}
+
+
+/* End */

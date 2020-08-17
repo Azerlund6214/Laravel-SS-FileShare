@@ -1,0 +1,18 @@
+
+.font-gta-sa { font-family: 'Old English Text MT' ; }
+
+@font-face
+{
+	font-family: "Old English Text MT";
+	
+    src: local('?'), /* Всегда грузит только с сайта */
+		url("font.ttf")   format("truetype");   /* все современные браузеры */
+		
+	/*
+
+	*/
+	
+	font-weight: normal;
+	font-style: normal;
+	
+}

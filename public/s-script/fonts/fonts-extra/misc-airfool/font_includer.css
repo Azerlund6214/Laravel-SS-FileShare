@@ -1,0 +1,18 @@
+
+.font-airfool { font-family: 'Airfool' ; }
+
+@font-face
+{
+	font-family: "Airfool";
+	
+    src: local('?'), /* Всегда грузит только с сайта */
+        url("font.otf")   format("opentype");
+		
+	/*
+
+	*/
+	
+	font-weight: normal;
+	font-style: normal;
+	
+}

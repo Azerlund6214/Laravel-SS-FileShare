@@ -1,0 +1,21 @@
+
+
+
+жирная рамка + другой цвет фона
+    border: 2px solid red;
+    background-color: #ffdad7;
+
+сделать много таких цветов
+
+
+зеленый фон
+    background-color: #C8E6C9;
+
+синий
+background: #4e95d0;
+
+
+#dee4f2;
+#f4dad5;
+
+123

@@ -1,0 +1,173 @@
+
+/* Скругление углов чего угодно*/
+/*  130619 0118    110719 1902
+radius-000      000=10,15,20,40...+20 до 360
+radius-000-UP   000=10,15,20,40...+20 до 360
+radius-000-DOWN 000=10,15,20,40...+20 до 360
+
+*/
+
+/*
+1 бува: T=top(верх)  B=bottom(низ)
+2 бува: L=left(лево) R=right(право)
+radius-10-BR
+
+без букв = Все углы
+
+-UP = верх
+-DOWN = низ
+*/
+
+/* Огромная избыточность */
+
+/* Можно еще сделать в процентах = НЕТ, не недо - оч плохо смотриться */
+/* ХРЕНЬ = получается ОВАЛ */
+/* НЕ ДЕЛАТЬ ПРОЦЕНТЫ, уже пробовал - фигня */
+
+
+/* 99% полезного до 40px */
+/*  radius- 0+2...40  40+20...360  -UP/-DOWN 
+
+radius-N(-UPorDOWN)N=10,15,20,40...
+
+ */
+
+
+/* ================================== */
+
+.radius-circle { border-radius: 50%; }
+.radius-0 { border-radius: 0px; }
+
+/* ================================== */
+
+.radius-2   { border-radius:  2px; }
+.radius-4   { border-radius:  4px; }
+.radius-6   { border-radius:  6px; }
+.radius-8   { border-radius:  8px; }
+.radius-10 { border-radius: 10px; }
+.radius-12 { border-radius: 12px; }
+.radius-14 { border-radius: 14px; }
+.radius-16 { border-radius: 16px; }
+.radius-18 { border-radius: 18px; }
+.radius-20 { border-radius: 20px; }
+.radius-22 { border-radius: 22px; }
+.radius-24 { border-radius: 24px; }
+.radius-26 { border-radius: 26px; }
+.radius-28 { border-radius: 28px; }
+.radius-30 { border-radius: 30px; }
+.radius-32 { border-radius: 32px; }
+.radius-34 { border-radius: 34px; }
+.radius-36 { border-radius: 36px; }
+.radius-38 { border-radius: 38px; }
+.radius-40 { border-radius: 40px; }
+
+.radius-60 { border-radius: 60px; }
+.radius-80 { border-radius: 80px; }
+.radius-100 { border-radius: 100px; }
+.radius-120 { border-radius: 120px; }
+.radius-140 { border-radius: 140px; }
+.radius-160 { border-radius: 160px; }
+.radius-180 { border-radius: 180px; }
+.radius-200 { border-radius: 200px; }
+.radius-220 { border-radius: 220px; }
+.radius-240 { border-radius: 240px; }
+.radius-260 { border-radius: 260px; }
+.radius-280 { border-radius: 280px; }
+.radius-300 { border-radius: 300px; }
+.radius-320 { border-radius: 320px; }
+.radius-340 { border-radius: 340px; }
+.radius-360 { border-radius: 360px; }
+
+/* ================================== */
+
+.radius-2-UP   { border-top-left-radius:  2px; border-top-right-radius:  2px; }
+.radius-4-UP   { border-top-left-radius:  4px; border-top-right-radius:  4px; }
+.radius-6-UP   { border-top-left-radius:  6px; border-top-right-radius:  6px; }
+.radius-8-UP   { border-top-left-radius:  8px; border-top-right-radius:  8px; }
+.radius-10-UP { border-top-left-radius: 10px; border-top-right-radius: 10px; }
+.radius-12-UP { border-top-left-radius: 12px; border-top-right-radius: 12px; }
+.radius-14-UP { border-top-left-radius: 14px; border-top-right-radius: 14px; }
+.radius-16-UP { border-top-left-radius: 16px; border-top-right-radius: 16px; }
+.radius-18-UP { border-top-left-radius: 18px; border-top-right-radius: 18px; }
+.radius-20-UP { border-top-left-radius: 20px; border-top-right-radius: 20px; }
+.radius-22-UP { border-top-left-radius: 22px; border-top-right-radius: 22px; }
+.radius-24-UP { border-top-left-radius: 24px; border-top-right-radius: 24px; }
+.radius-26-UP { border-top-left-radius: 26px; border-top-right-radius: 26px; }
+.radius-28-UP { border-top-left-radius: 28px; border-top-right-radius: 28px; }
+.radius-30-UP { border-top-left-radius: 30px; border-top-right-radius: 30px; }
+.radius-32-UP { border-top-left-radius: 32px; border-top-right-radius: 32px; }
+.radius-34-UP { border-top-left-radius: 34px; border-top-right-radius: 34px; }
+.radius-36-UP { border-top-left-radius: 36px; border-top-right-radius: 36px; }
+.radius-38-UP { border-top-left-radius: 38px; border-top-right-radius: 38px; }
+.radius-40-UP { border-top-left-radius: 40px; border-top-right-radius: 40px; }
+
+.radius-60-UP   { border-top-left-radius:  60px; border-top-right-radius:  60px;}
+.radius-80-UP   { border-top-left-radius:  80px; border-top-right-radius:  80px;}
+.radius-100-UP { border-top-left-radius: 100px; border-top-right-radius: 100px;}
+.radius-120-UP { border-top-left-radius: 120px; border-top-right-radius: 120px;}
+.radius-140-UP { border-top-left-radius: 140px; border-top-right-radius: 140px;}
+.radius-160-UP { border-top-left-radius: 160px; border-top-right-radius: 160px;}
+.radius-180-UP { border-top-left-radius: 180px; border-top-right-radius: 180px;}
+.radius-220-UP { border-top-left-radius: 220px; border-top-right-radius: 220px;}
+.radius-240-UP { border-top-left-radius: 240px; border-top-right-radius: 240px;}
+.radius-260-UP { border-top-left-radius: 260px; border-top-right-radius: 260px;}
+.radius-280-UP { border-top-left-radius: 280px; border-top-right-radius: 280px;}
+.radius-300-UP { border-top-left-radius: 300px; border-top-right-radius: 300px;}
+.radius-320-UP { border-top-left-radius: 320px; border-top-right-radius: 320px;}
+.radius-340-UP { border-top-left-radius: 340px; border-top-right-radius: 340px;}
+.radius-360-UP { border-top-left-radius: 360px; border-top-right-radius: 360px;}
+
+/* ================================== */
+
+.radius-2-DOWN   { border-bottom-left-radius:  2px; border-bottom-right-radius:  2px; }
+.radius-4-DOWN   { border-bottom-left-radius:  4px; border-bottom-right-radius:  4px; }
+.radius-6-DOWN   { border-bottom-left-radius:  6px; border-bottom-right-radius:  6px; }
+.radius-8-DOWN   { border-bottom-left-radius:  8px; border-bottom-right-radius:  8px; }
+.radius-10-DOWN { border-bottom-left-radius: 10px; border-bottom-right-radius: 10px; }
+.radius-12-DOWN { border-bottom-left-radius: 12px; border-bottom-right-radius: 12px; }
+.radius-14-DOWN { border-bottom-left-radius: 14px; border-bottom-right-radius: 14px; }
+.radius-16-DOWN { border-bottom-left-radius: 16px; border-bottom-right-radius: 16px; }
+.radius-18-DOWN { border-bottom-left-radius: 18px; border-bottom-right-radius: 18px; }
+.radius-20-DOWN { border-bottom-left-radius: 20px; border-bottom-right-radius: 20px; }
+.radius-22-DOWN { border-bottom-left-radius: 22px; border-bottom-right-radius: 22px; }
+.radius-24-DOWN { border-bottom-left-radius: 24px; border-bottom-right-radius: 24px; }
+.radius-26-DOWN { border-bottom-left-radius: 26px; border-bottom-right-radius: 26px; }
+.radius-28-DOWN { border-bottom-left-radius: 28px; border-bottom-right-radius: 28px; }
+.radius-30-DOWN { border-bottom-left-radius: 30px; border-bottom-right-radius: 30px; }
+.radius-32-DOWN { border-bottom-left-radius: 32px; border-bottom-right-radius: 32px; }
+.radius-34-DOWN { border-bottom-left-radius: 34px; border-bottom-right-radius: 34px; }
+.radius-36-DOWN { border-bottom-left-radius: 36px; border-bottom-right-radius: 36px; }
+.radius-38-DOWN { border-bottom-left-radius: 38px; border-bottom-right-radius: 38px; }
+.radius-40-DOWN { border-bottom-left-radius: 40px; border-bottom-right-radius: 40px; }
+
+.radius-60-DOWN   { border-bottom-left-radius:  60px; border-bottom-right-radius:  60px; }
+.radius-80-DOWN   { border-bottom-left-radius:  80px; border-bottom-right-radius:  80px; }
+.radius-100-DOWN { border-bottom-left-radius: 100px; border-bottom-right-radius: 100px; }
+.radius-120-DOWN { border-bottom-left-radius: 120px; border-bottom-right-radius: 120px; }
+.radius-140-DOWN { border-bottom-left-radius: 140px; border-bottom-right-radius: 140px; }
+.radius-160-DOWN { border-bottom-left-radius: 160px; border-bottom-right-radius: 160px; }
+.radius-180-DOWN { border-bottom-left-radius: 180px; border-bottom-right-radius: 180px; }
+.radius-220-DOWN { border-bottom-left-radius: 220px; border-bottom-right-radius: 220px; }
+.radius-240-DOWN { border-bottom-left-radius: 240px; border-bottom-right-radius: 240px; }
+.radius-260-DOWN { border-bottom-left-radius: 260px; border-bottom-right-radius: 260px; }
+.radius-280-DOWN { border-bottom-left-radius: 280px; border-bottom-right-radius: 280px; }
+.radius-300-DOWN { border-bottom-left-radius: 300px; border-bottom-right-radius: 300px; }
+.radius-320-DOWN { border-bottom-left-radius: 320px; border-bottom-right-radius: 320px; }
+.radius-340-DOWN { border-bottom-left-radius: 340px; border-bottom-right-radius: 340px; }
+.radius-360-DOWN { border-bottom-left-radius: 360px; border-bottom-right-radius: 360px; }
+
+/* ================================== */
+
+
+/*
+.radius340-3203-BL { border-top-left-radius: 3px; }
+.radius360-3403-BR { border-top-left-radius: 3px; }
+.radius-3603-TR { border-top-left-radius: 3px; }
+.radius-3-TR { border-top-left-radius: 3px; }
+*/
+
+
+
+
+
+/* End */

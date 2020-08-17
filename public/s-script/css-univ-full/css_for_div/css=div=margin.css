@@ -1,0 +1,29 @@
+
+/*  */
+
+/* http://htmlbook.ru/css/margin */
+
+/* КУЧА способов https://html5book.ru/horizontal-vertical-alignment/ */
+
+/* Отцентрировать */
+.margin-auto { margin: auto; }
+
+
+.margin-hor-a { margin: 0 , auto; } /* центрируем элемент по горизонтали в пределах родительского блока */
+
+.margin-l-a { margin-left:   auto; }
+.margin-r-a { margin-right:  auto; }
+.margin-t-a { margin-top:    auto; }
+.margin-b-a { margin-bottom: auto; }
+/* Почему-то не захотел принимать сразу 2 в одном классе, только по отдельности */
+
+
+/*
+.margin-hor-a {
+	margin-left: auto;
+	margin-right: auto;
+}
+*/
+
+
+/* End */

@@ -1,0 +1,41 @@
+
+/*  */
+/*  */
+/*  */
+
+
+
+/*
+blockquote,  abbr, acronym, address, big, 
+cite, code, del, dfn, em,  ins, kbd, q, s, samp, 
+small, strike, strong, sub, sup, tt, var, b, u, 
+center, dl, dt, dd,  fieldset,
+legend, caption, 
+article, aside,  applet, object, details, embed, figure, figcaption,
+menu, nav,
+hgroup,  output, ruby, summary, time, mark, audio, video 
+*/
+ 
+/* Main */  html, body, footer, header, div, section,
+/* H */     h1, h2, h3, h4, h5, h6,   
+/*  */      span, p, pre, a,
+/* Table */ table, tbody, tfoot, thead, tr, th, td,
+/* Lists */ ol, ul, li,
+/* Other */ iframe, canvas,
+/* Forms */ form, label,
+/*  */      img, i 
+ {
+	/* Remove default indents */
+    margin: 0px;
+    padding: 0px;
+	border: none;
+    outline: none;
+    /* vertical-align: baseline; /* Из-за этого хедер лого улетало наверх */
+
+}
+
+
+
+
+
+/* End */

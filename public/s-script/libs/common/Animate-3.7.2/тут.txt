@@ -1,0 +1,22 @@
+Отсмотрел только 3 ссылки из гугла
+
+
+ВСЕ РАСПИСАНО ТУТ ТопГайд https://webformyself.com/kak-polzovatsya-animate-css/
+(в тч как делать по кнопке)
+
+еще гайд (годно про JQ) http://gearmobile.github.io/css/library-animate-css/
+
+
+ПРОБНИК (ДЕМО просмотр всех видов)  + это ОФФ гитхаб
+https://daneden.github.io/animate.css/
+
+
+fadeInLeft  и др стороны    прилет блока со стороны
+
+
+
+
+<h1 class="animated flash">Hello</h1>
+
+
+123

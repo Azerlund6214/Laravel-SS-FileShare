@@ -1,0 +1,18 @@
+
+.font-minecraft { font-family: 'Minecraft Evenings' ; }
+
+@font-face
+{
+	font-family: "Minecraft Evenings";
+	
+    src: local('?'), /* Всегда грузит только с сайта */
+		url("font.ttf")   format("truetype");   /* все современные браузеры */
+		
+	/*
+
+	*/
+	
+	font-weight: normal;
+	font-style: normal;
+	
+}
