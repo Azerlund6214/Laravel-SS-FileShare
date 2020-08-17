@@ -4,7 +4,6 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 
 use Illuminate\Foundation\Validation\ValidatesRequests; # Трейт для валидации
-use Illuminate\Support\Facades\Storage;
 
 use App\AllMyClasses\SF; #
 
@@ -45,12 +44,13 @@ class FileShareController extends Controller
         $fileInfo = FileShare::where('short_url', $short_url )->first();
 
         $fileInfo->increment('loads_count');
+        #$fileInfo->save();
 
         $file_uri = $this->storagePath.'/'.$fileInfo->file_name;
 
 
         return response()->download($file_uri);
-        //return response()->download("storage/Конспект теории - базовая.php");
+        //return response()->download("storage/Конспект теории.php");
 
     }
 

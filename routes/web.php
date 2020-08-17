@@ -14,7 +14,7 @@ use Illuminate\Support\Facades\Route;
 
 
     #### *** File-Share *** ####
-    
+
     Route::get('/',"FileShareController@index" )->name('index');
 
     Route::post('/addfile',             'FileShareController@addFile' )->name('addFile');
