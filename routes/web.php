@@ -23,6 +23,7 @@ use Illuminate\Support\Facades\Route;
     Route::post('/addfile',      'FileShareController@addFile' )->name('addFile');
     Route::delete( '/delete/{id}/{admin_token}',   'FileShareController@delete'    )->name('delete');
 
+    Route::get( '/deleteexpiredfiles', 'FileShareController@deleteExpiredFiles'   )->name('deleteExpiredFiles');
 
     #### *** Tasker *** ####
 	/*

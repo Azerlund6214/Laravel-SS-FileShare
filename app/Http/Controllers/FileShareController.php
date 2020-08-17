@@ -23,9 +23,9 @@ class FileShareController extends Controller
 
 
     public $storagePath = "storage"; #
-    public $storageTimeDays = 7; # Срок хранения файлов
-    public $maxStorageSizeMb = 7; # Максмальный объем хранилища Mb TODO !!!!!!!!!!
-    public $maxFileSizeKb = 1024; # Предельный размер файлв в Кб
+    public $storageTimeDays = 30; # Срок хранения файлов
+    public $maxStorageSizeMb = 100; # Максмальный объем хранилища Mb
+    public $maxFileSizeKb = 5120; # Предельный размер файлв в Кб
 
 
 
@@ -146,16 +146,35 @@ class FileShareController extends Controller
         return redirect()->route('index');
     }
 
+    public function deleteExpiredFiles()
+    {
+        $timeNow = \Carbon\Carbon::now()->toDateTimeString();
+        dd($timeNow);
+        # Выбрать все устаревшие файлы.
+        $filesInfo = FileShare::where('date_delete', '<=' , $timeNow);
+
+
+        dd($filesInfo);
+        dd();
+        return redirect()->route('index');
+    }
+
+
     public function delete($id , $admin_token)
     {
         if( $admin_token != $this->admin_token )
-            return redirect()->route('chat.index');
+            return redirect()->route('index');
 
+        $fileInfo = FileShare::find($id);
 
-        OnlineChat::find($id)->delete();
+        $file_uri = $this->storagePath.'/'.$fileInfo->file_name;
 
-        return redirect()->route('chat.indexAdmin',['pass'=>$this->admin_pass]);
+        if ( SF::File_Exist($file_uri) )
+            SF::File_Delete($file_uri);
 
+        $fileInfo->delete();
+
+        return redirect()->route('indexAdmin',['pass'=>$this->admin_pass]);
     }
 
 
