@@ -14,28 +14,16 @@ use Illuminate\Support\Facades\Route;
 
 
     #### *** File-Share *** ####
-    Route::get('/',              "FileShareController@index"   )->name('index');
+    
+    Route::get('/',"FileShareController@index" )->name('index');
 
-    Route::get('/download/{short_url}',  "FileShareController@downloadFile"   )->name('downloadFile');
-
+    Route::post('/addfile',             'FileShareController@addFile' )->name('addFile');
+    Route::get( '/download/{short_url}',"FileShareController@downloadFile"   )->name('downloadFile');
+    Route::delete( '/delete/{id}/{admin_token}', 'FileShareController@delete'    )->name('delete');
+    Route::get( '/deleteexpiredfiles',  'FileShareController@deleteExpiredFiles'   )->name('deleteExpiredFiles');
 
     Route::get( '/admin/{pass}', 'FileShareController@index'   )->name('indexAdmin');
-    Route::post('/addfile',      'FileShareController@addFile' )->name('addFile');
-    Route::delete( '/delete/{id}/{admin_token}',   'FileShareController@delete'    )->name('delete');
 
-    Route::get( '/deleteexpiredfiles', 'FileShareController@deleteExpiredFiles'   )->name('deleteExpiredFiles');
-
-    #### *** Tasker *** ####
-	/*
-    Route::get( 'tasks',             'TasksController@index'   )->name('tasks.index');
-	Route::get( 'tasks/create',      'TasksController@create'  )->name('tasks.create');
-	Route::post('tasks/store',       'TasksController@store'   )->name('tasks.store');
-	Route::get( 'tasks/{id}/edit',   'TasksController@edit'    )->name('tasks.edit');
-	Route::put( 'tasks/{id}/update', 'TasksController@update'  )->name('tasks.update');
-	Route::get( 'tasks/{id}/show',   'TasksController@show'    )->name('tasks.show');
-	Route::delete( 'tasks/{id}/delete',   'TasksController@delete'    )->name('tasks.delete');
-    # Route::resource('tasks', 'TasksController'); # Авто маршуруты
-	*/
 
     #### *** CRON *** ####
 
