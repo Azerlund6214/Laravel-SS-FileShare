@@ -214,7 +214,7 @@
                             <thead>
                             <tr>
                                 <td>ID</td>
-                                <td>Время</td>
+                                <td>Ссылка</td>
                                 <td>Автор</td>
                                 <td>Сообщение</td>
                                 @if( $admin_token )
@@ -223,10 +223,10 @@
                             </tr>
                             </thead>
                             <tbody>
-                            @foreach($all_messages as $msg)
+                            @foreach($files_info as $msg)
                                 <tr>
                                     <td>{{$msg->id}}</td>
-                                    <td>{{$msg->created_at}}</td>
+                                    <td>{{$msg->short_url}}</td>
                                     <td>{{$msg->author_nickname}}</td>
                                     <td>{{$msg->message}}</td>
 

@@ -3,8 +3,12 @@
 namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 
-use App\FileShare; #Модель
 use Illuminate\Foundation\Validation\ValidatesRequests; # Трейт для валидации
+
+use App\AllMyClasses\SF; #
+
+use App\FileShare; # Модель
+
 
 class FileShareController extends Controller
 {
@@ -23,18 +27,35 @@ class FileShareController extends Controller
     public $admin_pass = "123pass"; # Пароль админа: 123.com/chat/admin/этот пароль
 
 
+    public function getFile( $short_url )
+    {
+        # TODO: Проверка входных данных
+
+        $fileExist = FileShare::where('short_url', $short_url )->count() >= 1;
+
+        if ( ! $fileExist)
+            return redirect()->route("index")->withErrors("Файл не существует, такой ссылки нет => $short_url");
+
+        $fileInfo = FileShare::where('short_url', $short_url )->first();
+
+        $file_uri = '/'.$this->storagePath.'/'.$fileInfo->file_name;
+
+        echo "<a href='$file_uri'>$file_uri</a>";
+        dd('Файл есть', $fileInfo);
+
+    }
+
     public function index($admin_pass="")
     {
 
-        #$all_messages = OnlineChat::all();
-        $all_messages = FileShare::orderBy('id', 'desc')
+        $files_info = FileShare::orderBy('id', 'desc')
                                     ->take(20)
                                     ->get();
 
         if( $admin_pass === $this->admin_pass)
-            return view('alone-project-fileshare.index', ['all_messages'=>$all_messages, 'admin_token'=>$this->admin_token]);
+            return view('alone-project-fileshare.index', ['files_info'=>$files_info, 'admin_token'=>$this->admin_token]);
 
-        return view('alone-project-fileshare.index', ['all_messages'=>$all_messages, 'admin_token'=>false]); # Без false ошибка
+        return view('alone-project-fileshare.index', ['files_info'=>$files_info, 'admin_token'=>false]); # Без false ошибка
     }
 
 
@@ -43,24 +64,76 @@ class FileShareController extends Controller
 
         $file = $request->file('loaded_file');
 
-        // отображаем имя файла
-        echo 'File Name: '.$file->getClientOriginalName();
-        echo '<br>';
+        if ( $file === null )
+            return back()->withInput()->withErrors("Файл не выбран");
 
-        //отображаем расширение файла
-        echo 'File Extension: '.$file->getClientOriginalExtension();
-        echo '<br>';
 
-        //отображаем фактический путь к файлу
-        echo 'File Real Path: '.$file->getRealPath();
-        echo '<br>';
+        $fileSizeKb = round( $file->getSize() / 1024, 1 );
+        $fileSizeMb = round( $file->getSize() / 1024/1024, 1 );
 
-        //отображаем размер файла
-        echo 'File Size: '.$file->getSize();
-        echo '<br>';
+        $timeNow = \Carbon\Carbon::now();
+        $timeLoad = $timeNow->toDateTimeString();
+        $timeDelete = $timeNow->add('+'.$this->storageTimeDays.'day')->toDateTimeString();
 
-        //отображаем Mime-тип файла
-        echo 'File Mime Type: '.$file->getMimeType();
+        $fileAlreadyLoaded = FileShare::where('file_name', $file->getClientOriginalName() )->count() >= 1;
+
+
+        /*
+        echo '<br>File Name: '.$file->getClientOriginalName(); // имя файла
+        echo '<br>File Extension: '.$file->getClientOriginalExtension(); // расширение файла
+        echo '<br>File Real Path: '.$file->getRealPath(); // фактический путь к файлу
+        echo '<br>File Size B: '.$file->getSize(); // размер файла
+        echo '<br>File Size Kb: '.$fileSizeKb; // размер файла
+        echo '<br>File Size Mb: '.$fileSizeMb; // размер файла
+        echo '<br>File Mime Type: '.$file->getMimeType(); // Mime-тип файла
+        echo '<br>Время добавки: '.$timeLoad; //
+        echo '<br>Время удаления: '.$timeDelete; //
+        echo '<br>Уже есть в базе: '; var_export($fileAlreadyLoaded); //
+        exit; */
+
+
+        if ( $fileSizeKb >= $this->maxFileSizeKb )
+            return back()->withInput()->withErrors("Файл слишком велик. Файл = $fileSizeKb Kb. Лимит = $this->maxFileSizeKb Kb.");
+
+        if ( $fileAlreadyLoaded )
+            return back()->withInput()->withErrors("Файл с этим именем уже есть.");
+
+
+        # TODO: Проверка на длину имени
+
+        # TODO: Проверка на запрещенные mime
+
+        # TODO: !!!! Проверка на исполняемые и .php файлы (PHP-Injection)
+        # Это дыра в безопасности. По-идее можно отключить исполнение скриптов в отдельной папке(в .htaccess)
+
+        # TODO: Проверка на первые байты файла (реальный тип файла)
+
+        # TODO: что имя != "." или ".env"
+
+
+        FileShare::create([
+            'short_url'=>SF::Get_Random_String_Readable(8, false),  # Исправить коллизии
+            'file_name'=>$file->getClientOriginalName(),
+
+            'file_size_bytes'=>$file->getSize(),
+            'file_size_kb'=>$fileSizeKb,
+            'file_size_mb'=>$fileSizeMb,
+            'file_ext'=>$file->getClientOriginalExtension(),
+            'file_mime'=>$file->getMimeType(),
+
+            'storage_time'=>$this->storageTimeDays,
+            'date_load'=>$timeLoad,
+            'date_delete'=>$timeDelete,
+        ]);
+
+
+
+
+        //перемещаем загруженный файл
+        $file->move($this->storagePath, $file->getClientOriginalName());
+
+
+        return redirect()->route('index');
 
 
         dd(123);
@@ -72,18 +145,8 @@ class FileShareController extends Controller
             ]
         );
 
-        $task = new OnlineChat;
-        $task->fill($request->all()); # Заполнение через $fillable
-        #$task->author_nickname = $request->get('title');   # Заполнение поштучно
 
-        $task->save();
 
-        //$author = $task->getAttribute('author_nickname');
-        //return view('alone-project-chat.index', ['author'=>$author]);
-
-        //dd($task);
-
-        return redirect()->route('chat.index');
 
     }
 

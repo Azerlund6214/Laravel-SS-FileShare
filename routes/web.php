@@ -12,14 +12,16 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 | */
 
-    Route::get('/',               "FileShareController@index"    )->name('index');
+
+    #### *** File-Share *** ####
+    Route::get('/',              "FileShareController@index"   )->name('index');
+
+    Route::get('/getfile/{short_url}',              "FileShareController@getfile"   )->name('getfile');
 
 
-
-    #### *** Online-Chat *** ####
-    Route::get( 'chat/admin/{pass}', 'FileShareController@index'   )->name('indexAdmin');
-    Route::post('/addfile',       'FileShareController@addFile'  )->name('addFile');
-    Route::delete( 'chat/delete/{id}/{admin_token}',   'FileShareController@delete'    )->name('delete');
+    Route::get( '/admin/{pass}', 'FileShareController@index'   )->name('indexAdmin');
+    Route::post('/addfile',      'FileShareController@addFile' )->name('addFile');
+    Route::delete( '/delete/{id}/{admin_token}',   'FileShareController@delete'    )->name('delete');
 
 
     #### *** Tasker *** ####

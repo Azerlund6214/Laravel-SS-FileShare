@@ -17,17 +17,23 @@ class CreateFileShareTable extends Migration
         {
             $table->increments('id');
 
-            $table->string('file_name')->comment('123.jpg');
+
             $table->string('short_url')->comment('Ссылка для скачивания.');
+            $table->string('file_name')->comment('123.jpg');
 
 
-            $table->integer('file_size_kb')->comment('');
-            $table->integer('file_size_mb')->comment('');
-            $table->string('file_type')->comment('.jpg .rar и тд');
+
+            $table->integer('file_size_bytes')->comment('');
+            $table->integer('file_size_kb')->comment('')->nullable();
+            $table->integer('file_size_mb')->comment('')->nullable();
+            $table->string('file_ext')->comment('.jpg .rar и тд');
+            $table->string('file_mime')->comment('Mime type');
+
+
+
             $table->integer('storage_time')->comment('Сколько дней хранить');
-
-            $table->datetime('date_load')->comment('Дата загрузки');
-            $table->datetime('date_delete')->comment('Дата для удаления');
+            $table->timestamp('date_load')->comment('Дата загрузки')->nullable();
+            $table->timestamp('date_delete')->comment('Дата для удаления')->nullable();
 
             $table->string('comment')->nullable();
 
