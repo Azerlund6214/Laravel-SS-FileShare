@@ -11,6 +11,14 @@ class FileShareController extends Controller
     //
     use ValidatesRequests; # Трейт для валидации
 
+
+    public $storagePath = "storage"; #
+    public $storageTimeDays = 7; # Срок хранения файлов
+    public $maxStorageSizeMb = 7; # Максмальный объем хранилища Mb
+    public $maxFileSizeKb = 1024; # Предельный размер файлв в Кб
+
+
+
     public $admin_token = "token1234321token"; # токен что бы удалять мог только админ
     public $admin_pass = "123pass"; # Пароль админа: 123.com/chat/admin/этот пароль
 
@@ -65,4 +73,6 @@ class FileShareController extends Controller
         return redirect()->route('chat.indexAdmin',['pass'=>$this->admin_pass]);
 
     }
+
+
 }
