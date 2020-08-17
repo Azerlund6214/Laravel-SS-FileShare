@@ -12,6 +12,8 @@
         <meta name="description" content="Онлайн-Чат без регистрации"/>
         <meta name="keywords" content=""/>
 
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
 
         <?php include "s-script/for-all-pages--s-script-settings.php"; ?>
 
@@ -166,26 +168,13 @@
 
                         <div class="form-inline " style="display: block; ">
 
-                            <input id="textinput_name" class="form-control" name="author_nickname" type="text"
-                                   placeholder="Логин" size="20"
-                                   value="{{old('author_nickname')}}" >
-
-                            <input id="textinput_msg" class="form-control" name="message" type="text"
-                                   placeholder="Сообщение" size="80"
-                                   value="{{old('message')}}" >
-
-
-
-
-                            <button class="btn btn-success">Отправить</button>
-
                             <a href="{{route('index')}}">
                                 <button class="btn btn-danger" type="button">Обновить</button>
                             </a>
 
-
                             {!! Form::file('loaded_file') !!}
 
+                            <button class="btn btn-success">Отправить</button>
 
                         </div>
 
